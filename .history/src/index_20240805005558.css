@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-item:hover {
+    background-color: #f8f8f8;
+    color: #000;
+}
+
+/* body {
+    background-image: url('../public/images/2.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url('../public/images/2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 110vh;
+    }
+} */
+
+
+
