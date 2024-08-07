@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.menu-item:hover, .menu-item:focus, .menu-item:active{
+    @apply bg-primary;
+    @apply text-my_black;
+    @apply font-bold;
+}
+
+.glow-border {
+    box-shadow: 0 0 10px 5px rgba(255, 255, 255, 0.5); /* Adjust the color and size as needed */
+  }
+
+/* body {
+    background-image: url('../public/images/2.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (min-width: 768px) {
+    body {
+        background-image: url('../public/images/2.png');
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 110vh;
+    }
+} */
+
+
+

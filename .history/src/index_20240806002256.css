@@ -7,19 +7,29 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-
 }
 
 .menu-item:hover, .menu-item:focus, .menu-item:active{
     @apply bg-primary;
     @apply text-my_black;
     @apply font-bold;
+    transform: scale(1);
+    transform: rotate(10deg);
+    transition: transform 0.5s;
+    animation: scaleInOut 1s infinite alternate;
 }
 
-.glow-border {
-    position: relative;
-    z-index: 1;
-  }
+@keyframes scaleInOut {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.3);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
 
   .glow-border::before {
     content: '';
@@ -74,30 +84,6 @@ body{
         height: 110vh;
     }
 } */
-
-/* body {
-    background-image: url('../public/images/2.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-}
-
-@media screen and (min-width: 768px) {
-    body {
-        background-image: url('../public/images/2.png');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 110vh;
-    }
-} */
-
-
-
-
 
 
 

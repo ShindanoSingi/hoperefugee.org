@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    border: 0;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-
 .menu-item:hover, .menu-item:focus, .menu-item:active{
     @apply bg-primary;
     @apply text-my_black;
@@ -31,7 +23,7 @@ body{
     border-radius: inherit;
     z-index: -1;
     box-shadow: 0 0 20px 5px rgba(255, 255, 255, 0.5);
-    animation: rotateGlow 5s linear infinite;
+    animation: rotate 5s 360 infinite;
   }
 
   @keyframes rotateGlow {
@@ -39,19 +31,19 @@ body{
         box-shadow: 0 0 20px 5px #237263;
     }
     25% {
-      box-shadow: 0 0 20px 5px #CFBDEC;
+      box-shadow: 0 0 20px 5px #1A759F;
     }
     50% {
       box-shadow: 0 0 20px 5px #E6C068;
     }
     75% {
-      box-shadow: 0 0 20px 5px #C83349;
+      box-shadow: 0 0 20px 5px #237263;;
     }
     100% {
-      box-shadow: 0 0 20px 5px #237263;
+      box-shadow: 0 0 20px 5px #E6C068;
     }
     120% {
-        box-shadow: 0 0 20px 5px #AA5E46;
+        box-shadow: 0 0 20px 5px #1A759F;
       }
   }
 
@@ -74,30 +66,6 @@ body{
         height: 110vh;
     }
 } */
-
-/* body {
-    background-image: url('../public/images/2.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-}
-
-@media screen and (min-width: 768px) {
-    body {
-        background-image: url('../public/images/2.png');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 110vh;
-    }
-} */
-
-
-
-
 
 
 

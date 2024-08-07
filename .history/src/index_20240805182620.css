@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-body{
-    border: 0;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-
-}
-
 .menu-item:hover, .menu-item:focus, .menu-item:active{
     @apply bg-primary;
     @apply text-my_black;
@@ -36,22 +28,22 @@ body{
 
   @keyframes rotateGlow {
     0% {
-        box-shadow: 0 0 20px 5px #237263;
+        box-shadow: 0 0 20px 5px rgba(35, 114, 99, 0.5);
     }
     25% {
-      box-shadow: 0 0 20px 5px #CFBDEC;
+      box-shadow: 0 0 20px 5px rgba(0, 255, 0, 0.5);
     }
     50% {
-      box-shadow: 0 0 20px 5px #E6C068;
+      box-shadow: 0 0 20px 5px rgba(0, 0, 255, 0.5);
     }
     75% {
-      box-shadow: 0 0 20px 5px #C83349;
+      box-shadow: 0 0 20px 5px rgb(230, 192, 104);
     }
     100% {
-      box-shadow: 0 0 20px 5px #237263;
+      box-shadow: 0 0 20px 5px #C83349;
     }
     120% {
-        box-shadow: 0 0 20px 5px #AA5E46;
+        box-shadow: 0 0 20px 5px rgba(35, 114, 99, 0.5);
       }
   }
 
@@ -74,30 +66,6 @@ body{
         height: 110vh;
     }
 } */
-
-/* body {
-    background-image: url('../public/images/2.png');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
-    height: 100vh;
-    margin: 0;
-    padding: 0;
-}
-
-@media screen and (min-width: 768px) {
-    body {
-        background-image: url('../public/images/2.png');
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        height: 110vh;
-    }
-} */
-
-
-
-
 
 
 

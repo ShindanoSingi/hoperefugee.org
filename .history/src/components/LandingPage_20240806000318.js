@@ -323,7 +323,7 @@ const LandingPage = () => {
 
       return (
             <div className="min-h-screen bg-contain bg-no-repeat bg-[url('/public/images/2.png')] bg-center lg:bg-contain md:bg-[url('/public/images/Anna_langing_page_big.png') lg:bg-[url('/public/images/Anna_langing_page_big.png')]">
-                <div className="absolute lg:relative w-full left-[14.5rem] top-[20rem] md:top-[25rem] lg:top-0 lg:p-4 lg:p-6 lg:left-0 md:left-[33rem]">
+                <div className="absolute w-screen right-[15rem] md:top-[5rem] md:right-[18rem]">
                     <MenuList />
                 </div>
 
