@@ -14,8 +14,8 @@ function App() {
       return (
         <Router>
             <div className="h-screen flex flex-col">
-                <div className="bg-my_black p-2 h-16 shadow-yellow lg:h-20 flex items-center justify-between px-4">
-                    <div className="h-12 w-12 rounded-full shadow-yellow glow-border border-primary border flex items-center ">
+                <div className="bg-my_black p-2 h-18 lg:h-20 flex items-center justify-between px-4">
+                    <div className="h-12 w-12 rounded-full border-primary border flex items-center ">
                         <Link to='/'>
                         <img src='/images/logo_no_background.png' alt="logo" />
                         </Link>
@@ -25,7 +25,7 @@ function App() {
                     </div>
                     <MenuList />
                 </div>
-                <div className="flex-1 glow-border border-primary border">
+                <div className="flex-1 bg-gray-200 p-4 text-center">
                     <Routes>
                         <Route path="/" element={<LandingPage />} />
                         <Route path="/about" element={<About />} />
@@ -34,7 +34,7 @@ function App() {
                         <Route path="*" element={<h1>Not Found</h1>} />
                     </Routes>
                 </div>
-                <div className="bg-my_black p-2 h-16 shadow-yellow lg:h-20 flex items-center justify-between px-4">
+                <div className="bg-gray-100 p-4 text-center">
                     Footer
                 </div>
             </div>

@@ -25,7 +25,7 @@ function App() {
                     </div>
                     <MenuList />
                 </div>
-                <div className="flex-1 glow-border border-primary border">
+                <div className="flex-1 bg-gray-200 p-4 text-center">
                     <Routes>
                         <Route path="/" element={<LandingPage />} />
                         <Route path="/about" element={<About />} />
