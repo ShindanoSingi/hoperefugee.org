@@ -16,7 +16,7 @@ function App() {
       return (
             <Router>
                   <div className="h-screen flex flex-col">
-                        <div className="bg-my_black p-2 h-20 shadow-yellow border border-primary lg:h-24 flex items-center justify-between px-6">
+                        <div className="bg-my_black p-2 h-20  shadow-yellow lg:h-24 flex items-center justify-between px-4">
                               <div className="h-12 w-12 rounded-full shadow-yellow glow-border border-primary border flex items-center ">
                                     <Link to="/">
                                           <img
@@ -37,11 +37,14 @@ function App() {
                                           onClick={()=>{SetShow(!show)}}
                                     />
                               </div>
-                                <div className="hidden lg:flex">
-                                        <MenuList show={show}/>
-                                        </div>
+                              <div className="hidden ">
+                        <MenuList show={show} />
+                    </div>
+                              <div className="hidden relative left-[48%] lg:w-full lg:block">
+                            <MenuList />
+                              </div>
                         </div>
-                        <div className="flex-1">
+                        <div className="flex-1 border-primary border">
                               <Routes>
                                     <Route path="/" element={<LandingPage />} />
                                     <Route path="/about" element={<About />} />
@@ -60,7 +63,6 @@ function App() {
                                     <Route path='/menu' element={<MenuList show={show}/>}/>
                               </Routes>
                         </div>
-
                   </div>
             </Router>
       );

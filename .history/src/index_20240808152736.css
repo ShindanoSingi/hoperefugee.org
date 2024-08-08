@@ -32,7 +32,7 @@ body{
     bottom: -5px;
     border-radius: inherit;
     z-index: -1;
-    box-shadow: 0 0 20px 0px #E6C068;
+    box-shadow: 0 0 20px 2px #E6C068;
     animation: rotateGlow 5s linear infinite;
   }
 

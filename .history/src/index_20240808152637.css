@@ -25,14 +25,14 @@ body{
 
   .glow-border::before {
     content: '';
-    position: absolute;
+    position: relative;
     top: -5px;
     left: -5px;
     right: -5px;
     bottom: -5px;
     border-radius: inherit;
     z-index: -1;
-    box-shadow: 0 0 20px 0px #E6C068;
+    box-shadow: 0 0 2px 2px #E6C068;
     animation: rotateGlow 5s linear infinite;
   }
 

@@ -37,9 +37,11 @@ function App() {
                                           onClick={()=>{SetShow(!show)}}
                                     />
                               </div>
-                                <div className="hidden lg:flex">
-                                        <MenuList show={show}/>
-                                        </div>
+                              {/* <div className="hidden ">
+                        <MenuList show={show} />
+                    </div> */}
+
+
                         </div>
                         <div className="flex-1">
                               <Routes>
