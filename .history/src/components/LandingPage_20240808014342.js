@@ -322,7 +322,7 @@ const LandingPage = () => {
       });
 
       return (
-            <div className=" bg-my_black flex-grow bg-no-repeat bg-[url('/public/images/Anna_langing_page_big.png')] h-full bg-cover bg-center lg:bg-[url('/public/images/Anna_langing_page_big.png')]">
+            <div className=" bg-my_black flex-grow bg-no-repeat bg-[url('/public/images/2.png')] bg-cover bg-center lg:bg-[url('/public/images/Anna_langing_page_big.png')]">
 
 
                   {/* <Header />

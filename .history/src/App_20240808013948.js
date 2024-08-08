@@ -11,12 +11,10 @@ import Footer from "./components/Footer";
 
 function App() {
       const [isOpen, setOpen] = useState(false);
-      const [show, SetShow] = useState(false);
-
       return (
             <Router>
                   <div className="h-screen flex flex-col">
-                        <div className="bg-my_black p-2 h-20 shadow-yellow lg:h-24 flex items-center justify-between px-4">
+                        <div className="bg-my_black p-2 h-16 shadow-yellow lg:h-20 flex items-center justify-between px-4">
                               <div className="h-12 w-12 rounded-full shadow-yellow glow-border border-primary border flex items-center ">
                                     <Link to="/">
                                           <img
@@ -25,22 +23,18 @@ function App() {
                                           />
                                     </Link>
                               </div>
-                              <div className="h-12 w-12 rounded-full bg-my_green shadow-yellow glow-border border-primary border flex items-center lg:hidden" onClick={()=>{SetShow(!show)}}>
+                              <div className="h-12 w-12 rounded-full border-primary border flex items-center lg:hidden">
                                     <Hamburger
                                           toggled={isOpen}
                                           toggle={setOpen}
                                           size={32}
-                                        //   direction="right"
+                                          direction="right"
                                           duration={0.8}
                                           distance="lg"
                                           color="#E6C068"
-                                          onClick={()=>{SetShow(!show)}}
                                     />
                               </div>
-                              <div className="hidden ">
-                        <MenuList show={show} />
-                    </div>
-                              <div className="hidden relative left-[48%] lg:w-full lg:block">
+                              <div className="hidden relative left-[40%] lg:w-full lg:block">
                             <MenuList />
                               </div>
 
@@ -61,10 +55,9 @@ function App() {
                                           path="*"
                                           element={<h1>Not Found</h1>}
                                     />
-                                    <Route path='/menu' element={<MenuList show={show}/>}/>
                               </Routes>
                         </div>
-                        <div className="bg-my_black p-2 h-20 shadow-yellow lg:h-24 flex items-center justify-between px-4">
+                        <div className="bg-my_black p-2 h-16 shadow-yellow lg:h-20 flex items-center justify-between px-4">
                               <Footer />
                         </div>
                   </div>

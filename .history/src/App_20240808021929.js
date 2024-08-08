@@ -16,7 +16,7 @@ function App() {
       return (
             <Router>
                   <div className="h-screen flex flex-col">
-                        <div className="bg-my_black p-2 h-20 shadow-yellow lg:h-24 flex items-center justify-between px-4">
+                        < className="bg-my_black p-2 h-20 shadow-yellow lg:h-24 flex items-center justify-between px-4">
                               <div className="h-12 w-12 rounded-full shadow-yellow glow-border border-primary border flex items-center ">
                                     <Link to="/">
                                           <img
@@ -25,24 +25,24 @@ function App() {
                                           />
                                     </Link>
                               </div>
-                              <div className="h-12 w-12 rounded-full bg-my_green shadow-yellow glow-border border-primary border flex items-center lg:hidden" onClick={()=>{SetShow(!show)}}>
+                              <div className="h-12 w-12 rounded-full  border-primary border flex items-center lg:hidden" onClick={() => SetShow(!show)}>
                                     <Hamburger
                                           toggled={isOpen}
                                           toggle={setOpen}
                                           size={32}
-                                        //   direction="right"
+                                          direction="right"
                                           duration={0.8}
                                           distance="lg"
                                           color="#E6C068"
-                                          onClick={()=>{SetShow(!show)}}
+
                                     />
                               </div>
                               <div className="hidden ">
                         <MenuList show={show} />
                     </div>
-                              <div className="hidden relative left-[48%] lg:w-full lg:block">
+
                             <MenuList />
-                              </div>
+
 
                         </div>
                         <div className="flex-1 glow-border border-primary border">

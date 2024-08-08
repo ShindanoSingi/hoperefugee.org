@@ -11,8 +11,7 @@ import Footer from "./components/Footer";
 
 function App() {
       const [isOpen, setOpen] = useState(false);
-      const [show, SetShow] = useState(false);
-
+      const [show, SetShow] = useState(true);
       return (
             <Router>
                   <div className="h-screen flex flex-col">
@@ -25,21 +24,18 @@ function App() {
                                           />
                                     </Link>
                               </div>
-                              <div className="h-12 w-12 rounded-full bg-my_green shadow-yellow glow-border border-primary border flex items-center lg:hidden" onClick={()=>{SetShow(!show)}}>
+                              <div className="h-12 w-12 rounded-full border-primary border flex items-center lg:hidden">
                                     <Hamburger
                                           toggled={isOpen}
                                           toggle={setOpen}
                                           size={32}
-                                        //   direction="right"
+                                          direction="right"
                                           duration={0.8}
                                           distance="lg"
                                           color="#E6C068"
-                                          onClick={()=>{SetShow(!show)}}
+                                          onClick={() => SetShow(!show)}
                                     />
                               </div>
-                              <div className="hidden ">
-                        <MenuList show={show} />
-                    </div>
                               <div className="hidden relative left-[48%] lg:w-full lg:block">
                             <MenuList />
                               </div>

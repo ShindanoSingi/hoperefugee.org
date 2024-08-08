@@ -38,22 +38,22 @@ body{
 
   @keyframes rotateGlow {
     0% {
-        box-shadow: 0 0 20px 5px #237263;
+        box-shadow: 0 0 0px 5px #237263;
     }
     25% {
-      box-shadow: 0 0 20px 5px #CFBDEC;
+      box-shadow: 0 0 0px 5px #CFBDEC;
     }
     50% {
-      box-shadow: 0 0 20px 5px #E6C068;
+      box-shadow: 0 0 0px 5px #E6C068;
     }
     75% {
-      box-shadow: 0 0 20px 5px #C83349;
+      box-shadow: 0 0 0px 5px #C83349;
     }
     100% {
-      box-shadow: 0 0 20px 5px #237263;
+      box-shadow: 0 0 0px 5px #237263;
     }
     120% {
-        box-shadow: 0 0 20px 5px #AA5E46;
+        box-shadow: 0 0 0px 5px #AA5E46;
       }
   }
 

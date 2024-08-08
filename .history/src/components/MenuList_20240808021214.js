@@ -3,11 +3,15 @@ import { Link } from "react-router-dom";
 
 function MenuList({show}) {
 
+    useEffect(() => {
+        console.log(show);
+    }, []);
+
     console.log(show);
 
       return (
 
-            !show && <div class="flex absolute z-50 left-[13.5rem] top-[10rem] md:top-[25rem] lg:top-0 lg:p-2 lg:left-0 md:left-[33rem] flex-col rounded-lg text-lg bg-my_black w-32 md:w-44 lg:w-[50%] border border-primary text-primary shadow-yellow glow-border">
+            show ?? <div class="flex left-[13.5rem] top-[20rem] md:top-[25rem] lg:top-0 lg:p-2 lg:left-0 md:left-[33rem] flex-col rounded-lg text-lg bg-my_black w-32 md:w-44 lg:w-[50%] border border-primary text-primary shadow-yellow glow-border">
                   <div class="divide-y lg:divide-y-0 divide-primary flex flex-col lg:flex-row md:justify-around justify-center">
                         <Link to='/'>
                               <div class="menu-item text-center lg:rounded-tl-lg border-primary border lg:rounded-br-lg lg:w-24 py-1 lg:px-0 md:py-1">

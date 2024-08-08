@@ -322,17 +322,17 @@ const LandingPage = () => {
       });
 
       return (
-            <div className=" bg-my_black flex-grow bg-no-repeat bg-[url('/public/images/Anna_langing_page_big.png')] h-full bg-cover bg-center lg:bg-[url('/public/images/Anna_langing_page_big.png')]">
+            <div className=" bg-my_black flex-grow bg-no-repeat bg-[url('/public/images/Anna_langing_page_big.png')] bg-cover bg-center lg:bg-[url('/public/images/Anna_langing_page_big.png')]">
 
 
-                  {/* <Header />
+                  <Header />
                   <div className="py-4 grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                         {trail.map((style, index) => (
                               <animated.div key={index} style={style}>
                                     <PictureCard {...pictures[index]} />
                               </animated.div>
                         ))}
-                  </div> */}
+                  </div>
             </div>
       );
 };

@@ -25,16 +25,16 @@ function App() {
                                           />
                                     </Link>
                               </div>
-                              <div className="h-12 w-12 rounded-full bg-my_green shadow-yellow glow-border border-primary border flex items-center lg:hidden" onClick={()=>{SetShow(!show)}}>
+                              <div className="h-12 w-12 rounded-full glow-border border-primary border flex items-center lg:hidden">
                                     <Hamburger
                                           toggled={isOpen}
                                           toggle={setOpen}
                                           size={32}
-                                        //   direction="right"
+                                          direction="right"
                                           duration={0.8}
                                           distance="lg"
                                           color="#E6C068"
-                                          onClick={()=>{SetShow(!show)}}
+
                                     />
                               </div>
                               <div className="hidden ">
