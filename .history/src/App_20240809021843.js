@@ -29,8 +29,7 @@ function App() {
                                 <div className="hidden lg:block"><Menu /></div>
 
                         </div>
-                        <div className="absolute lg:hidden">{!showMenu && <MenuList />}</div>
-
+                        {showMenu && <MenuList />}
                         <div className="flex-1">
                               <Routes>
                                     <Route path="/" element={<LandingPage />} />

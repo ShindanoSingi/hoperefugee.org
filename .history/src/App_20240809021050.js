@@ -29,8 +29,6 @@ function App() {
                                 <div className="hidden lg:block"><Menu /></div>
 
                         </div>
-                        <div className="absolute lg:hidden">{!showMenu && <MenuList />}</div>
-
                         <div className="flex-1">
                               <Routes>
                                     <Route path="/" element={<LandingPage />} />
@@ -50,6 +48,7 @@ function App() {
 
                               </Routes>
                         </div>
+
                   </div>
             </Router>
       );

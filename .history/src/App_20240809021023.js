@@ -26,11 +26,9 @@ function App() {
                         <div className="bg-my_black p-2 h-20 shadow-yellow border border-primary lg:h-24 flex items-center justify-between px-6">
                               <Logo />
                               <div className="lg:hidden"><Hambourger /></div>
-                                <div className="hidden lg:block"><Menu /></div>
+                                <div className="hidden"><Menu /></div>
 
                         </div>
-                        <div className="absolute lg:hidden">{!showMenu && <MenuList />}</div>
-
                         <div className="flex-1">
                               <Routes>
                                     <Route path="/" element={<LandingPage />} />
@@ -50,6 +48,7 @@ function App() {
 
                               </Routes>
                         </div>
+
                   </div>
             </Router>
       );

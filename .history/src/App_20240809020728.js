@@ -10,7 +10,6 @@ import { useDispatch, useSelector } from "react-redux";
 import { SetShowMenu } from "./redux/userSlice";
 import Logo from "./components/Logo";
 import Hambourger from "./components/Hambourger";
-import Menu from "./components/Menu";
 
 
 function App() {
@@ -25,12 +24,10 @@ function App() {
                   <div className="h-screen flex flex-col">
                         <div className="bg-my_black p-2 h-20 shadow-yellow border border-primary lg:h-24 flex items-center justify-between px-6">
                               <Logo />
-                              <div className="lg:hidden"><Hambourger /></div>
-                                <div className="hidden lg:block"><Menu /></div>
+                              <div><Hambourger /></div>
+                                <div><MenuList /></div>
 
                         </div>
-                        <div className="absolute lg:hidden">{!showMenu && <MenuList />}</div>
-
                         <div className="flex-1">
                               <Routes>
                                     <Route path="/" element={<LandingPage />} />
@@ -50,6 +47,7 @@ function App() {
 
                               </Routes>
                         </div>
+
                   </div>
             </Router>
       );
