@@ -67,7 +67,7 @@ const PictureCard = ({ imageSrc, comments, likes, stars }) => {
                         )}
                   </div>
 
-
+                  
             </animated.div>
       );
 };

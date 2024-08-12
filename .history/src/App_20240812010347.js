@@ -24,7 +24,7 @@ function App() {
       return (
             <Router>
                   <div className="h-screen flex flex-col bg-my_black">
-                        <div className="bg-my_black p-2 h-20 mb-6 shadow-yellow border border-primary lg:h-24 flex items-center justify-between px-6">
+                        <div className="bg-my_black p-2 h-20 mb-6 p-4 shadow-yellow border border-primary lg:h-24 flex items-center justify-between px-6">
                               <Logo />
                               <div className="lg:hidden"><Hambourger /></div>
                                 <div className="hidden lg:block"><Menu /></div>

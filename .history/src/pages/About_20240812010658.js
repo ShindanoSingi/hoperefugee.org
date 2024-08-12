@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function About() {
     return (
         <div className="flex items-center justify-center">
-            <div className="md:max-w-2xl lg:max-w-7xl mx-6">
+            <div className="mx-6">
                 <motion.div
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -15,7 +15,7 @@ function About() {
                     role="button"
                     tabIndex={0}
                 >
-                    <h2 className="text-2xl text-my_white font-buffalo mb-4">
+                    <h2 className="text-2xl text-my_green font-buffalo mb-4">
                         Welcome to our Hair Braiding Business!
                     </h2>
                     <p className="text-lg">

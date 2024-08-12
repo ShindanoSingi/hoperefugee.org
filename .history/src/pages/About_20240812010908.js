@@ -3,8 +3,8 @@ import { motion } from "framer-motion";
 
 function About() {
     return (
-        <div className="flex items-center justify-center">
-            <div className="md:max-w-2xl lg:max-w-7xl mx-6">
+        <div className="flex items-center md:w-2xl justify-center">
+            <div className="mx-6 ">
                 <motion.div
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}

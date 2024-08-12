@@ -11,6 +11,7 @@ import { SetShowMenu } from "./redux/userSlice";
 import Logo from "./components/Logo";
 import Hambourger from "./components/Hambourger";
 import Menu from "./components/Menu";
+import Home from "./pages/Home";
 import PictureCard from "./pages/PictureCard";
 
 
@@ -23,8 +24,8 @@ function App() {
 
       return (
             <Router>
-                  <div className="h-screen flex flex-col bg-my_black">
-                        <div className="bg-my_black p-2 h-20 mb-6 shadow-yellow border border-primary lg:h-24 flex items-center justify-between px-6">
+                  <div className="h-screen flex flex-col">
+                        <div className="bg-my_black p-2 h-20 shadow-yellow border border-primary lg:h-24 flex items-center justify-between px-6">
                               <Logo />
                               <div className="lg:hidden"><Hambourger /></div>
                                 <div className="hidden lg:block"><Menu /></div>
@@ -34,7 +35,7 @@ function App() {
 
                         <div className="flex-1">
                               <Routes>
-                                    <Route path="/" element={<PictureCard />} />
+                                    <Route path="/" element={<LandingPage />} />
                                     <Route path="/about" element={<About />} />
                                     <Route
                                           path="/contact"
