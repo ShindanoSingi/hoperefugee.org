@@ -36,7 +36,11 @@ function Home() {
                             whileHover={{ scale: 1.05 }}
                             className="bg-primary p-6 rounded-lg shadow-yellow transition-all duration-300"
                         >
+                            <div className="flex justify-between">
                                 <h3 className="text-2xl font-bold mb-4 text-my_black">1. Box Braids</h3>
+                                <h3 className="text-2xl font-bold mb-4 text-my_black">1</h3>
+                            </div>
+
                             <img src='/images/Box Braids.jpg' alt='Box Braids'/>
                             <p className="text-lg mt-2">
                                 Expertly crafted box braids to suit your style and preferences.

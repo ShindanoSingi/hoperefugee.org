@@ -36,7 +36,11 @@ function Home() {
                             whileHover={{ scale: 1.05 }}
                             className="bg-primary p-6 rounded-lg shadow-yellow transition-all duration-300"
                         >
-                                <h3 className="text-2xl font-bold mb-4 text-my_black">1. Box Braids</h3>
+                            <div className="flex justify-between">
+                                <h3 className="text-2xl font-bold mb-4 text-my_black">Box Braids</h3>
+                                <h3 className="text-2xl font-bold mb-4 text-my_black">1</h3>
+                            </div>
+
                             <img src='/images/Box Braids.jpg' alt='Box Braids'/>
                             <p className="text-lg mt-2">
                                 Expertly crafted box braids to suit your style and preferences.
@@ -47,7 +51,7 @@ function Home() {
                             whileHover={{ scale: 1.05 }}
                             className="bg-primary p-6 rounded-lg shadow-yellow transition-all duration-300"
                         >
-                            <h3 className="text-2xl font-bold mb-4 text-my_black">2. Cornrows</h3>
+                            <div className="flex justify-between">
                             <img src='/images/Cornrows.jpg' alt='Cornrows'/>
                             <p className="text-lg mt-2">
                                 Traditional cornrows with a modern twist, tailored just for you.
@@ -58,7 +62,7 @@ function Home() {
                             whileHover={{ scale: 1.05 }}
                             className="bg-primary p-6 rounded-lg shadow-yellow transition-all duration-300"
                         >
-                            <h3 className="text-2xl font-bold mb-4 text-my_black">3. Goddess Braids</h3>
+                            <h3 className="text-2xl font-bold mb-4 text-my_black">Goddess Braids</h3>
                             <img src='/images/Goddess Braids.jpg' alt='Goddess Braids'/>
                             <p className="text-lg mt-2">
                                 Embrace your inner goddess with our beautiful goddess braids.
@@ -69,7 +73,7 @@ function Home() {
                             whileHover={{ scale: 1.05 }}
                             className="bg-primary p-6 rounded-lg shadow-yellow transition-all duration-300"
                         >
-                            <h3 className="text-2xl font-bold mb-4 text-my_black">4. Stitch Braids</h3>
+                            <h3 className="text-2xl font-bold mb-4 text-my_black">Stitch Braids</h3>
                             <img src='/images/Stitch Braids.jpg' alt='Stitch Braids'/>
                             <p className="text-lg mt-2">
                                 Stunning stitch braids that will elevate your look.
@@ -80,7 +84,7 @@ function Home() {
                             whileHover={{ scale: 1.05 }}
                             className="bg-primary p-6 rounded-lg shadow-yellow transition-all duration-300"
                         >
-                            <h3 className="text-2xl font-bold mb-4 text-my_black">5. Kotless Twist</h3>
+                            <h3 className="text-2xl font-bold mb-4 text-my_black">Kotless Twist</h3>
                             <img src='/images/Kotless Twist.jpg' alt='Kotless Twist'/>
                             <p className="text-lg mt-2">
                                 Trendy and effortless kotless twists for a chic style.
@@ -91,7 +95,7 @@ function Home() {
                             whileHover={{ scale: 1.05 }}
                             className="bg-primary p-6 rounded-lg shadow-yellow transition-all duration-300"
                         >
-                            <h3 className="text-2xl font-bold mb-4 text-my_black">6. Sign Style: Boho Bob</h3>
+                            <h3 className="text-2xl font-bold mb-4 text-my_black">Sign Style: Boho Bob</h3>
                             <img src='/images/Boho Bob.jpg' alt='Sign Style Boho Bob'/>
                             <p className="text-lg mt-2">
                                 Get the boho bob look with our unique sign style braids.
@@ -102,7 +106,7 @@ function Home() {
                             whileHover={{ scale: 1.05 }}
                             className="bg-primary p-6 rounded-lg shadow-yellow transition-all duration-300"
                         >
-                            <h3 className="text-2xl font-bold mb-4 text-my_black">7. Knotless Braids</h3>
+                            <h3 className="text-2xl font-bold mb-4 text-my_black">Knotless Braids</h3>
                             <img src='/images/Knotless Braids.jpg' alt='Knotless Braids'/>
                             <p className="text-lg mt-2">
                                 Experience the comfort and versatility of knotless braids.
@@ -113,7 +117,7 @@ function Home() {
                             whileHover={{ scale: 1.05 }}
                             className="bg-primary p-6 rounded-lg shadow-yellow transition-all duration-300"
                         >
-                            <h3 className="text-2xl font-bold mb-4 text-my_black">8. Island/Boho Twists</h3>
+                            <h3 className="text-2xl font-bold mb-4 text-my_black">Island/Boho Twists</h3>
                             <img src='/images/Island:Boho Twists.jpg' alt='Island Boho Twists'/>
                             <p className="text-lg mt-2">
                                 Get the island/boho vibe with our stunning twists.
@@ -124,7 +128,7 @@ function Home() {
                             whileHover={{ scale: 1.05 }}
                             className="bg-primary p-6 rounded-lg shadow-yellow transition-all duration-300"
                         >
-                            <h3 className="text-2xl font-bold mb-4 text-my_black">9. Faux Locs</h3>
+                            <h3 className="text-2xl font-bold mb-4 text-my_black">Faux Locs</h3>
                             <img src='/images/Faux Locs.jpg' alt='Faux Locs'/>
                             <p className="text-lg mt-2">
                                 Achieve the look of locs without the commitment with our faux locs.
@@ -135,7 +139,7 @@ function Home() {
                             whileHover={{ scale: 1.05 }}
                             className="bg-primary p-6 rounded-lg shadow-yellow transition-all duration-300"
                         >
-                            <h3 className="text-2xl font-bold mb-4 text-my_black">10. Fulani Styles</h3>
+                            <h3 className="text-2xl font-bold mb-4 text-my_black">Fulani Styles</h3>
                             <img src='/images/Fulani Styles.jpg' alt='Fulani Styles'/>
                             <p className="text-lg mt-2">
                                 Embrace the beauty of Fulani-inspired braided hairstyles.
