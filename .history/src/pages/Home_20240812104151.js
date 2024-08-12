@@ -30,7 +30,7 @@ function Home() {
             <section id="services" className="bg-my_white text-my_black py-16 px-4">
                 <div className="container mx-auto">
                     <h2 className="text-3xl md:text-4xl font-bold text-center mb-12 text-my_green">Our Services</h2>
-                    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
                         {/* Example Service Card */}
                         <motion.div
                             whileHover={{ scale: 1.05 }}

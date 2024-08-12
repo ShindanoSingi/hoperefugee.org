@@ -27,7 +27,7 @@ function App() {
                                 <div className="hidden lg:block"><Menu /></div>
 
                         </div>
-                        <div className="absolute lg:hidden">{!showMenu && <MenuList />}</div>
+                        <div className="absolute md:hidden">{!showMenu && <MenuList />}</div>
 
                         <div className="flex-1">
                               <Routes>

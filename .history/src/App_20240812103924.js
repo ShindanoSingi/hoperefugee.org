@@ -23,11 +23,11 @@ function App() {
                   <div className="h-screen flex flex-col bg-my_black">
                         <div className="bg-my_black p-4 h-20 mb-6 shadow-yellow border border-primary lg:h-24 flex items-center justify-between px-6">
                               <Logo />
-                              <div className="lg:hidden"><Hambourger /></div>
+                              <div className="md:hidden"><Hambourger /></div>
                                 <div className="hidden lg:block"><Menu /></div>
-
+                        
                         </div>
-                        <div className="absolute lg:hidden">{!showMenu && <MenuList />}</div>
+                        <div className="absolute md:hidden">{!showMenu && <MenuList />}</div>
 
                         <div className="flex-1">
                               <Routes>
