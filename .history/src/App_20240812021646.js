@@ -53,10 +53,10 @@ function App() {
                               </Routes>
                         </div>
                         {/* Footer Section */}
-            <footer className="bg-my_black border-t-4 border-primary border- border text-my_white py-6">
+            <footer className="bg-my_black border-t-4 border-yellow border text-my_white py-6">
                 <div className="container mx-auto text-center">
                     <p className="text-my_white">
-                        &copy; 2024 Shindano SoftDeveloper All rights reserved.
+                        &copy; 2024 Hair Braiding Business. All rights reserved.
                     </p>
                     <div className="mt-4 flex justify-center space-x-4">
                         <a href="#" className="hover:text-primary">Facebook</a>

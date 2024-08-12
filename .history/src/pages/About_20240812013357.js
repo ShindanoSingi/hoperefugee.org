@@ -11,7 +11,7 @@ function About() {
                     transition={{ duration: 0.5 }}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="bg-primary rounded-lg shadow-md p-6"
+                    className="bg-primary rounded-lg shadow-md p-6 hover:bg-black hover:text-my_white"
                     role="button"
                     tabIndex={0}
                     aria-label="Clickable Div"

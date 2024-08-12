@@ -28,10 +28,10 @@ function App() {
                         <div className="bg-my_black p-4 h-20 mb-6 shadow-yellow border border-primary lg:h-24 flex items-center justify-between px-6">
                               <Logo />
                               <div className="md:hidden"><Hambourger /></div>
-                                <div className="hidden md:block"><Menu /></div>
+                                <div className="hidden lg:block"><Menu /></div>
 
                         </div>
-                        <div className="absolute md:hidden">{!showMenu && <MenuList />}</div>
+                        <div className="absolute lg:hidden">{!showMenu && <MenuList />}</div>
 
                         <div className="flex-1">
                               <Routes>
@@ -52,19 +52,6 @@ function App() {
 
                               </Routes>
                         </div>
-                        {/* Footer Section */}
-            <footer className="bg-my_black border-t-4 border-primary border- border text-my_white py-6">
-                <div className="container mx-auto text-center">
-                    <p className="text-my_white">
-                        &copy; 2024 Shindano SoftDeveloper All rights reserved.
-                    </p>
-                    <div className="mt-4 flex justify-center space-x-4">
-                        <a href="#" className="hover:text-primary">Facebook</a>
-                        <a href="#" className="hover:text-primary">Instagram</a>
-                        <a href="#" className="hover:text-primary">Twitter</a>
-                    </div>
-                </div>
-            </footer>
                   </div>
             </Router>
       );

@@ -11,12 +11,12 @@ function About() {
                     transition={{ duration: 0.5 }}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="bg-primary rounded-lg shadow-md p-6"
+                    className="bg-primary hover:bg-black hover:text-my_white rounded-lg shadow-md p-6"
                     role="button"
                     tabIndex={0}
                     aria-label="Clickable Div"
                 >
-                    <h2 className="text-2xl text-my_green font-bold mb-4">
+                    <h2 className="text-2xl text-my_green  font-bold mb-4">
                         Welcome to our Hair Braiding Business!
                     </h2>
                     <p className="text-lg text-my_black">

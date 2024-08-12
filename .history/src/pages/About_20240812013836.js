@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 function About() {
     return (
-        <div className="flex items-center justify-center">
+        <div className="flex items-center justify-center min-h-screen">
             <div className="md:max-w-2xl lg:max-w-7xl mx-6">
                 <motion.div
                     initial={{ opacity: 0, y: -20 }}
@@ -11,7 +11,7 @@ function About() {
                     transition={{ duration: 0.5 }}
                     whileHover={{ scale: 1.05 }}
                     whileTap={{ scale: 0.95 }}
-                    className="bg-primary rounded-lg shadow-md p-6"
+                    className="bg-primary rounded-lg shadow-md p-6 cursor-pointer transition-colors duration-300 ease-in-out hover:bg-black hover:text-my_white"
                     role="button"
                     tabIndex={0}
                     aria-label="Clickable Div"
