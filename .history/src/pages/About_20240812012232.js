@@ -16,7 +16,7 @@ function About() {
                     tabIndex={0}
                     aria-label="Clickable Div"
                 >
-                    <h2 className="text-2xl text-my_green font-bold mb-4">
+                    <h2 className="text-2xl text-lg text-my_green font-bold mb-4">
                         Welcome to our Hair Braiding Business!
                     </h2>
                     <p className="text-lg text-my_black">

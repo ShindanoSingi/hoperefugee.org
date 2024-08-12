@@ -19,7 +19,7 @@ function About() {
                     <h2 className="text-2xl text-my_green font-bold mb-4">
                         Welcome to our Hair Braiding Business!
                     </h2>
-                    <p className="text-lg text-my_black">
+                    <p className="text-lg text-green-800">
                         We are dedicated to providing elegant and stylish hair braiding services. Our team of experts will ensure that you leave our salon feeling confident and beautiful.
                     </p>
                 </motion.div>
