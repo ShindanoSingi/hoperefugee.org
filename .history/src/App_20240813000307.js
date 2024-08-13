@@ -11,6 +11,7 @@ import { SetShowMenu } from "./redux/userSlice";
 import PictureCard from "./pages/PictureCard";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
+import { HeadRow } from "react-day-picker";
 import Header from "./components/Header";
 
 

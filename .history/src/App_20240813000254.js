@@ -11,7 +11,7 @@ import { SetShowMenu } from "./redux/userSlice";
 import PictureCard from "./pages/PictureCard";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
+import { HeadRow } from "react-day-picker";
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       return (
             <Router>
                   <div className="h-screen flex flex-col bg-my_black">
-                        <Header/>
+                        <HeadRow />
                         <div className="absolute lg:hidden">{!showMenu && <MenuList />}</div>
 
                         <div className="flex-1">

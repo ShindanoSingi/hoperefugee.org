@@ -9,29 +9,6 @@ function Home() {
       const [views, setViews] = useState(Array(10).fill(100));
       const [ratings, setRatings] = useState(Array(10).fill(4));
 
-      const [comments1, setComments1] = useState([
-        ["Great service!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!"],
-        ["Amazing styles."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."]
-    ]);
-
-    // Example function to handle adding a comment
-    const handleComment1 = (index, newComment) => {
-        // Create a copy of the comments array
-        const updatedComments = [...comments];
-        // Add the new comment to the specific card's comments
-        updatedComments[index].push(newComment);
-        // Update the state
-        setComments(updatedComments);
-    };
-
       const handleLike = (index) => {
             const newLikes = [...likes];
             newLikes[index] += 1;
@@ -49,7 +26,6 @@ function Home() {
             newRatings[index] = rating;
             setRatings(newRatings);
       };
-
 
       return (
             <div className="min-h-screen bg-my_black text-my_white font-montserrat flex flex-col">
@@ -233,12 +209,7 @@ function Home() {
                                                             </div>
                                                       </div>
                                                 </div>
-                                                <Comments
-                                                key={index}
-                                                comments={comments1}
-                                                index={index}
-                                                handleComment={handleComment}
-                                                />
+                                                <Comments />
                                           </motion.div>
                                     ))}
                               </div>

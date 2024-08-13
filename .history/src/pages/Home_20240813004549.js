@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import Comments from "../components/Comments";
 
 function Home() {
       // Dummy state for likes, comments, views, and ratings
@@ -8,29 +7,6 @@ function Home() {
       const [comments, setComments] = useState(Array(10).fill([]));
       const [views, setViews] = useState(Array(10).fill(100));
       const [ratings, setRatings] = useState(Array(10).fill(4));
-
-      const [comments1, setComments1] = useState([
-        ["Great service!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!"],
-        ["Amazing styles."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."]
-    ]);
-
-    // Example function to handle adding a comment
-    const handleComment1 = (index, newComment) => {
-        // Create a copy of the comments array
-        const updatedComments = [...comments];
-        // Add the new comment to the specific card's comments
-        updatedComments[index].push(newComment);
-        // Update the state
-        setComments(updatedComments);
-    };
 
       const handleLike = (index) => {
             const newLikes = [...likes];
@@ -49,7 +25,6 @@ function Home() {
             newRatings[index] = rating;
             setRatings(newRatings);
       };
-
 
       return (
             <div className="min-h-screen bg-my_black text-my_white font-montserrat flex flex-col">
@@ -192,7 +167,7 @@ function Home() {
                                                             </span>
                                                       </div>
 
-                                                      <div className="mt-4 flex flex-col items-center">
+                                                      <div className="mt-4 flex flex-col">
                                                             <h4 className="text-my_black font-bold">
                                                                   ⭐️ Rating
                                                             </h4>
@@ -233,12 +208,52 @@ function Home() {
                                                             </div>
                                                       </div>
                                                 </div>
-                                                <Comments
-                                                key={index}
-                                                comments={comments1}
-                                                index={index}
-                                                handleComment={handleComment}
-                                                />
+                                                <div className="mt-4">
+                                                      <h4 className="text-my_black font-bold">
+                                                            Comments
+                                                      </h4>
+                                                      <div className="max-h-24 overflow-y-auto">
+                                                            {comments[
+                                                                  index
+                                                            ].map(
+                                                                  (
+                                                                        comment,
+                                                                        i
+                                                                  ) => (
+                                                                        <p
+                                                                              key={
+                                                                                    i
+                                                                              }
+                                                                              className="text-my_black"
+                                                                        >
+                                                                              {
+                                                                                    comment
+                                                                              }
+                                                                        </p>
+                                                                  )
+                                                            )}
+                                                      </div>
+                                                      <input
+                                                            type="text"
+                                                            placeholder="Add a comment..."
+                                                            className="w-full p-2 mt-2 rounded bg-my_white text-my_black"
+                                                            onKeyDown={(e) => {
+                                                                  if (
+                                                                        e.key ===
+                                                                        "Enter"
+                                                                  ) {
+                                                                        handleComment(
+                                                                              index,
+                                                                              e
+                                                                                    .target
+                                                                                    .value
+                                                                        );
+                                                                        e.target.value =
+                                                                              "";
+                                                                  }
+                                                            }}
+                                                      />
+                                                </div>
                                           </motion.div>
                                     ))}
                               </div>

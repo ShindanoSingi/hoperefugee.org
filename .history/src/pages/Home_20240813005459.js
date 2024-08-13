@@ -10,15 +10,8 @@ function Home() {
       const [ratings, setRatings] = useState(Array(10).fill(4));
 
       const [comments1, setComments1] = useState([
-        ["Great service!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!", "Love the braids!"],
+        ["Great service!", "Love the braids!"],
         ["Amazing styles."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."],
-        ["Very professional."],
         ["Very professional."]
     ]);
 

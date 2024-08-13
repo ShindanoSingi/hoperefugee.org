@@ -322,11 +322,11 @@ const LandingPage = () => {
       });
 
       return (
-            <div className=" bg-my_black h-full bg-no-repeat bg-[url('/public/images/2.png')] px-6 md:bg-[url('/public/images/Anna_langing_page_big.png')] bg-cover bg-center lg:bg-[url('/public/images/Anna_langing_page_big.png')]">
+            <div className=" bg-my_black h-full bg-no-repeat bg-[url('/public/images/2.png')] md:bg-[url('/public/images/Anna_langing_page_big.png')] bg-cover bg-center lg:bg-[url('/public/images/Anna_langing_page_big.png')]">
 
 
                   <Header />
-                  <div className="py-4 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-8">
+                  <div className="py-4 grid grid-cols-1  md:grid-cols-2 lg:grid-cols-3 gap-4">
                         {trail.map((style, index) => (
                               <animated.div key={index} style={style}>
                                     <PictureCard {...pictures[index]} />

@@ -8,10 +8,10 @@ import Services from "./pages/Services";
 import MenuList from "./components/MenuList";
 import { useDispatch, useSelector } from "react-redux";
 import { SetShowMenu } from "./redux/userSlice";
+import Menu from "./components/Menu";
 import PictureCard from "./pages/PictureCard";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
-import Header from "./components/Header";
 
 
 function App() {
@@ -20,7 +20,7 @@ function App() {
       return (
             <Router>
                   <div className="h-screen flex flex-col bg-my_black">
-                        <Header/>
+
                         <div className="absolute lg:hidden">{!showMenu && <MenuList />}</div>
 
                         <div className="flex-1">

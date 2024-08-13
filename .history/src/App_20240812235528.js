@@ -8,10 +8,11 @@ import Services from "./pages/Services";
 import MenuList from "./components/MenuList";
 import { useDispatch, useSelector } from "react-redux";
 import { SetShowMenu } from "./redux/userSlice";
+import Logo from "./components/Logo";
+import Hambourger from "./components/Hambourger";
+import Menu from "./components/Menu";
 import PictureCard from "./pages/PictureCard";
 import Home from "./pages/Home";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
 
 
 function App() {
@@ -20,7 +21,12 @@ function App() {
       return (
             <Router>
                   <div className="h-screen flex flex-col bg-my_black">
-                        <Header/>
+                        <div className="bg-my_black p-4 h-20 mb-6 shadow-yellow border border-primary lg:h-24 flex items-center justify-between px-6">
+                              <Logo />
+                              <div className="lg:hidden"><Hambourger /></div>
+                                <div className="hidden lg:block"><Menu /></div>
+
+                        </div>
                         <div className="absolute lg:hidden">{!showMenu && <MenuList />}</div>
 
                         <div className="flex-1">
@@ -33,15 +39,17 @@ function App() {
                                     />
                                     <Route
                                           path="/services"
-                                          element={<LandingPage />}
+                                          element={<Services />}
                                     />
                                     <Route
                                           path="*"
                                           element={<h1>Not Found</h1>}
                                     />
+
                               </Routes>
                         </div>
-                        <Footer />
+                        {/* Footer Section */}
+
                   </div>
             </Router>
       );

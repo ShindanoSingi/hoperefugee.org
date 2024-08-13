@@ -8,10 +8,11 @@ import Services from "./pages/Services";
 import MenuList from "./components/MenuList";
 import { useDispatch, useSelector } from "react-redux";
 import { SetShowMenu } from "./redux/userSlice";
+import Logo from "./components/Logo";
+import Hambourger from "./components/Hambourger";
+import Menu from "./components/Menu";
 import PictureCard from "./pages/PictureCard";
 import Home from "./pages/Home";
-import Footer from "./components/Footer";
-import Header from "./components/Header";
 
 
 function App() {
@@ -20,7 +21,12 @@ function App() {
       return (
             <Router>
                   <div className="h-screen flex flex-col bg-my_black">
-                        <Header/>
+                        <div className="bg-my_black p-4 h-20 mb-6 shadow-yellow border border-primary lg:h-24 flex items-center justify-between px-6">
+                              <Logo />
+                              <div className="lg:hidden"><Hambourger /></div>
+                                <div className="hidden lg:block"><Menu /></div>
+
+                        </div>
                         <div className="absolute lg:hidden">{!showMenu && <MenuList />}</div>
 
                         <div className="flex-1">
@@ -33,15 +39,28 @@ function App() {
                                     />
                                     <Route
                                           path="/services"
-                                          element={<LandingPage />}
+                                          element={<Services />}
                                     />
                                     <Route
                                           path="*"
                                           element={<h1>Not Found</h1>}
                                     />
+
                               </Routes>
                         </div>
-                        <Footer />
+                        {/* Footer Section */}
+            <footer className="bg-my_black border-t-4 border-primary border- border text-my_white py-6">
+                <div className="container mx-auto text-center">
+                    <p className="text-my_white">
+                        &copy; 2024 Shindano SoftCom All rights reserved.
+                    </p>
+                    <div className="mt-4 flex justify-center space-x-4">
+                        <a href="#" className="hover:text-primary">Facebook</a>
+                        <a href="#" className="hover:text-primary">Instagram</a>
+                        <a href="#" className="hover:text-primary">Twitter</a>
+                    </div>
+                </div>
+            </footer>
                   </div>
             </Router>
       );
