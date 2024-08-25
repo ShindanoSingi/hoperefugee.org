@@ -2,14 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 
 function About() {
-    const handleDateChange = (event) => {
-        console.log(event.target.value);
-    };
-
-    return (
-        <div className="flex items-center flex-col justify-center">
-            <div className="md:max-w-2xl lg:max-w-7xl mx-6">
-                <motion.div
                     initial={{ opacity: 0, y: -20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.5 }}
@@ -28,6 +20,14 @@ function About() {
                     </p>
                 </motion.div>
             </div>
+            <div className="bg-slate-100 p-2">
+                <fieldset >
+                <legend>Legend</legend>
+                <label htmlFor="date">Time In:</label>
+                <input type="date" className='bg-gray-600 p-2' id="date" name="date" />
+            </fieldset>
+            </div>
+
         </div>
     );
 }

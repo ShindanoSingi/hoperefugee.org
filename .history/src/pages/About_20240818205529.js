@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 function About() {
     const handleDateChange = (event) => {
         console.log(event.target.value);
+        new Date().getDay()
     };
 
     return (
@@ -28,6 +29,13 @@ function About() {
                     </p>
                 </motion.div>
             </div>
+            <div className="bg-slate-100 rounded-lg w-[73%] p-2">
+                <fieldset className="flex flex-col gap-2" >
+                <label htmlFor="date">Time In:</label>
+                <input type="date" className='bg-gray-600 rounded-md p-2' id="date" name="date" onChange={handleDateChange} />
+            </fieldset>
+            </div>
+            <p>Today is {new Date().getDay()}</p>
         </div>
     );
 }

@@ -28,6 +28,13 @@ function About() {
                     </p>
                 </motion.div>
             </div>
+            <div className="bg-slate-100 p-2">
+                <fieldset >
+                <label htmlFor="date">Time In:</label>
+                <input type="date" className='bg-gray-600 p-2' id="date" name="date" onChange={handleDateChange} />
+            </fieldset>
+            </div>
+
         </div>
     );
 }

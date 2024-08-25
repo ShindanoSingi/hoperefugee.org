@@ -21,13 +21,38 @@ function Home() {
       ["Very professional."],
       ["Very professional."]
     ]);
-
     const [appointment, setAppointment] = useState({
       name: "",
       date: "",
-      time: ""
+      time: "",
+      cardNumber: ""
     });
 
+    const handleBookAppointment = () => {
+      // Perform validation on the appointment details
+      if (appointment.name === "" || appointment.date === "" || appointment.time === "" || appointment.cardNumber === "") {
+        alert("Please fill in all the fields");
+        return;
+      }
+
+      // Perform any additional logic for booking the appointment
+
+      // Reset the appointment form
+      setAppointment({
+        name: "",
+        date: "",
+        time: "",
+        cardNumber: ""
+      });
+    };
+
+    const handleInputChange = (e) => {
+      const { name, value } = e.target;
+      setAppointment((prevAppointment) => ({
+        ...prevAppointment,
+        [name]: value
+      }));
+    };
 
     // Example function to handle adding a comment
     const handleComment1 = (index, newComment) => {

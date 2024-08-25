@@ -2,10 +2,6 @@ import React from "react";
 import { motion } from "framer-motion";
 
 function About() {
-    const handleDateChange = (event) => {
-        console.log(event.target.value);
-    };
-
     return (
         <div className="flex items-center flex-col justify-center">
             <div className="md:max-w-2xl lg:max-w-7xl mx-6">
@@ -28,6 +24,9 @@ function About() {
                     </p>
                 </motion.div>
             </div>
+            <input className='bg-gray-600' type="date" onClick={(e)=>{
+                    console.log(e.target.value);
+                }} />
         </div>
     );
 }
