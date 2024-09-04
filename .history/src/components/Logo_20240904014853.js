@@ -7,6 +7,9 @@ function Logo() {
                   <Link to="/">
                         <img src="/images/With_Background.png" alt="logo" />
                   </Link>
+                  <Link to="/">
+                        Comfy Taxi
+                  </Link>
             </div>
       );
 }
