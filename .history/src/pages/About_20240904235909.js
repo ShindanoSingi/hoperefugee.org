@@ -9,7 +9,7 @@ function About() {
       return (
             <div className="flex items-center flex-col justify-center">
                   <div
-                        className="bg-cover bg-center grid place-content-center h-64 w-full lg:max-w-7xl mx-4"
+                        className="bg-cover bg-center grid place-content-center h-64 w-screen md:max-w-2xl lg:max-w-7xl mx-6"
                         style={{
                               backgroundImage:
                                     "url(https://taxilewiston.com/images/1469761/0_0.jpg)"
@@ -21,7 +21,7 @@ function About() {
                               </p>
                         </div>
                   </div>
-                  <div className=" lg:max-w-7xl mt-2 mx-4">
+                  <div className="md:max-w-2xl lg:max-w-7xl mx-6">
                         <motion.div
                               initial={{ opacity: 0, y: -20 }}
                               animate={{ opacity: 1, y: 0 }}

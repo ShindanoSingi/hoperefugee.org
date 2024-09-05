@@ -7,21 +7,8 @@ function About() {
       };
 
       return (
-            <div className="flex items-center flex-col justify-center">
-                  <div
-                        className="bg-cover bg-center grid place-content-center h-64 w-full lg:max-w-7xl mx-4"
-                        style={{
-                              backgroundImage:
-                                    "url(https://taxilewiston.com/images/1469761/0_0.jpg)"
-                        }}
-                  >
-                        <div className="">
-                              <p className="text-shadow-custom text-4xl font-bold text-my_white font-serif">
-                                    ABOUT US
-                              </p>
-                        </div>
-                  </div>
-                  <div className=" lg:max-w-7xl mt-2 mx-4">
+            <div className="flex items-center mt-4 flex-col justify-center">
+                  <div className="md:max-w-2xl lg:max-w-7xl mx-6">
                         <motion.div
                               initial={{ opacity: 0, y: -20 }}
                               animate={{ opacity: 1, y: 0 }}
@@ -43,6 +30,14 @@ function About() {
                                     feeling confident and beautiful.
                               </p>
                         </motion.div>
+                  </div>
+                  <div
+  className="bg-cover bg-center grid place-content-center h-64 w-full md:max-w-2xl lg:max-w-7xl mx-6"
+  style={{ backgroundImage: 'url(https://taxilewiston.com/images/1469761/0_0.jpg)' }}
+>
+                        <div className="">
+                              <p className="text-shadow-md text-4xl text-my_white font-extrabold"> ABOUT US</p>
+                        </div>
                   </div>
             </div>
       );

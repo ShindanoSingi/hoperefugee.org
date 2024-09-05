@@ -12,9 +12,18 @@ module.exports = {
                         my_red: "#C83349",
                         my_blue: "#1A759F",
                   },
+                //   fontFamily: {
+                //     montserrat: ['Montserrat', 'sans-serif'],
+                //     buffalo: ['Buffalo', 'sans-serif'],
+                //   },
+                  boxShadow: {
+                    'yellow': '0 4px 6px rgba(230, 192, 104, 0.5), 0 10px 15px rgba(230, 192, 104, 0.5)',
+                  },
+                  textShadow: {
+                    custom: '2px 2px #3D3D3D',
+                  },
                   fontFamily: {
-                    montserrat: ['Montserrat', 'sans-serif'],
-                    buffalo: ['Buffalo', 'sans-serif'],
+                    oxygen: ['Oxygen', 'sans-serif'],
                   },
             }
       },

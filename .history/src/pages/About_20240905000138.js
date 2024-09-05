@@ -21,7 +21,7 @@ function About() {
                               </p>
                         </div>
                   </div>
-                  <div className=" lg:max-w-7xl mt-2 mx-4">
+                  <div className="md:max-w-2xl lg:max-w-7xl mt-2 mx-4">
                         <motion.div
                               initial={{ opacity: 0, y: -20 }}
                               animate={{ opacity: 1, y: 0 }}
