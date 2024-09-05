@@ -11,7 +11,7 @@ import Navbar from "./Navbar";
 const Header = () => {
       return (
             <div className="bg-my_black p-4 h-20 mb-6 shadow-yellow border border-primary lg:h-24 flex items-center justify-between px-6">
-
+                <Navbar />
                 {/* <Link to='/'>
                 <div className="flex items-center gap-6">
                     <Logo />

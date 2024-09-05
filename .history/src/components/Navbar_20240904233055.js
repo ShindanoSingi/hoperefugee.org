@@ -51,7 +51,7 @@ export default function Navbar() {
                               <Link to='/'>
                                     <div className="flex gap-6 items-center">
                                           <Logo />
-                                          <strong className="text-primary text-lg md:text-2xl lg:text-4xl">
+                                          <strong className="text-primary text-lg lg:text-4xl">
                                                 Comfy Taxi
                                           </strong>
                                     </div>
@@ -130,7 +130,7 @@ export default function Navbar() {
                         </div>
                   </div>
 
-                  <DisclosurePanel className="lg:hidden">
+                  <DisclosurePanel className="md:hidden">
                         <div className="space-y-1 px-2 pb-3 pt-2">
                               {navigation.map((item) => (
                                     <DisclosureButton

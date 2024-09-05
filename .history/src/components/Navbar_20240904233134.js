@@ -130,7 +130,7 @@ export default function Navbar() {
                         </div>
                   </div>
 
-                  <DisclosurePanel className="lg:hidden">
+                  <DisclosurePanel className="md:hidden">
                         <div className="space-y-1 px-2 pb-3 pt-2">
                               {navigation.map((item) => (
                                     <DisclosureButton

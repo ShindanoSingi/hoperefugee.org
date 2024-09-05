@@ -12,7 +12,6 @@ import PictureCard from "./pages/PictureCard";
 import Home from "./pages/Home";
 import Footer from "./components/Footer";
 import Header from "./components/Header";
-import Navbar from "./components/Navbar";
 
 
 function App() {
@@ -21,7 +20,6 @@ function App() {
       return (
             <Router>
                   <div className="h-screen flex flex-col bg-my_black">
-                  <Navbar />
                         {/* <Header/>
                         <div className="absolute lg:hidden">{!showMenu && <MenuList />}</div> */}
 
