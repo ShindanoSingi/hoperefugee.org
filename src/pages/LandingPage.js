@@ -3,7 +3,6 @@ import React from "react";
 import Header from "../components/Header";
 import PictureCard from "./PictureCard";
 import { animated, useTrail } from "@react-spring/web";
-import MenuList from "../components/MenuList";
 
 const LandingPage = () => {
       const pictures = [

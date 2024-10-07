@@ -5,7 +5,6 @@ import { BrowserRouter as Router, Routes, Route} from "react-router-dom";
 import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
-import MenuList from "./components/MenuList";
 import { useDispatch, useSelector } from "react-redux";
 import { SetShowMenu } from "./redux/userSlice";
 import PictureCard from "./pages/PictureCard";
