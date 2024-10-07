@@ -70,7 +70,7 @@ function Home() {
                               className="relative z-5 pb-10 text-center text-my_white"
                         >
                               <h1 className="text-4xl md:text-6xl font-buffalo mb-4">
-                                    Elegant Hair Braiding
+                                    Reffu
                               </h1>
                               <p className="text-lg mt-2 md:text-2xl mb-6">
                                     Where style meets tradition and elegance is
