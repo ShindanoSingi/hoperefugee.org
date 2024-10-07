@@ -2,7 +2,6 @@ import {
       Disclosure,
       DisclosureButton,
       DisclosurePanel,
-
 } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Logo from "./Logo";

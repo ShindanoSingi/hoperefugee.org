@@ -2,7 +2,6 @@ import {
       Disclosure,
       DisclosureButton,
       DisclosurePanel,
-
 } from "@headlessui/react";
 import { Bars3Icon, BellIcon, XMarkIcon } from "@heroicons/react/24/outline";
 import Logo from "./Logo";
@@ -37,7 +36,7 @@ export default function Navbar() {
                                     </div>
                               </Link>
                             <div className="relative inset-y-0 left-0 flex items-center lg:hidden">
-                                    <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md text-my_white hover:bg-gray-700 hover:text-my_white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+                                    <DisclosureButton className="group relative inline-flex items-center justify-center rounded-md text-my_white hover:bg-my_blue hover:text-my_white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
                                           <span className="absolute -inset-0.5" />
                                           <span className="sr-only">
                                                 Open main menu

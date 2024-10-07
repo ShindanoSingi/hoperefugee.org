@@ -14,7 +14,7 @@ function Home() {
       return (
             <div className="min-h-screen bg-primary text-my_white font-montserrat flex flex-col">
                   {/* Hero Section */}
-                  <section className="h-[15rem] flex items-center justify-center bg-background-image relative  ">
+                  <section className="h-[20rem] flex items-center justify-center bg-background-image relative  ">
                         <div className="absolute inset-0 bg-my_black opacity-75"></div>
                         <motion.div
                               initial={{ opacity: 0, y: 50 }}
@@ -40,11 +40,11 @@ function Home() {
                   {/* Services Section */}
                   <section
                         id="services"
-                        className="bg-my_white text-my_black flex flex-1"
+                        className="bg-my_white text-my_black "
                   >
-
+                        <div className="h-auto">
                               <img src="/images/Huging.png" alt="" />
-
+                        </div>
                   </section>
             </div>
       );

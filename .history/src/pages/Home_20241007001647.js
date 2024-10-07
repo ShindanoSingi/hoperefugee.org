@@ -1,0 +1,83 @@
+import React, { useState } from "react";
+import { motion } from "framer-motion";
+
+
+
+function Home() {
+
+    const [appointment, setAppointment] = useState({
+      name: "",
+      date: "",
+      time: ""
+    });
+
+
+    // Example function to handle adding a comment
+    const handleComment1 = (index, newComment) => {
+        // Create a copy of the comments array
+        const updatedComments = [...comments];
+        // Add the new comment to the specific card's comments
+        updatedComments[index].push(newComment);
+        // Update the state
+        setComments(updatedComments);
+    };
+
+      const handleLike = (index) => {
+            const newLikes = [...likes];
+            newLikes[index] += 1;
+            setLikes(newLikes);
+      };
+
+      const handleComment = (index, comment) => {
+            const newComments = [...comments];
+            newComments[index] = [...newComments[index], comment];
+            setComments(newComments);
+      };
+
+      const handleRating = (index, rating) => {
+            const newRatings = [...ratings];
+            newRatings[index] = rating;
+            setRatings(newRatings);
+      };
+
+
+      return (
+            <div className="min-h-screen bg-primary text-my_white font-montserrat flex flex-col">
+                  {/* Hero Section */}
+                  <section className="flex-1 flex items-center justify-center bg-background-image relative  ">
+                        <div className="absolute inset-0 bg-my_black opacity-75"></div>
+                        <motion.div
+                              initial={{ opacity: 0, y: 50 }}
+                              animate={{ opacity: 1, y: 0 }}
+                              transition={{ duration: 1 }}
+                              className="relative z-5 text-center text-my_white"
+                        >
+                              <h1 className="text-4xl md:text-6xl font-buffalo mb-8">
+                                    Refugee Hope Bridge
+                              </h1>
+                              <p className="text-lg mt-2 md:text-2xl mb-6">
+                              Bringing Hope to Refugees' Lives
+                              </p>````
+                              <a
+                                    href="#services"
+                                    className="bg-primary  text-my_white text-xl font-bold py-3 px-6 rounded-full shadow-yellow hover:bg-my_black"
+                              >
+                                    Discover Our Services
+                              </a>
+                        </motion.div>
+                  </section>
+
+                  {/* Services Section */}
+                  <section
+                        id="services"
+                        className="bg-my_white text-my_black py-16 px-4"
+                  >
+                        <div className="container mx-auto ">
+                              <img src="/" alt="Huging" />
+                        </div>
+                  </section>
+            </div>
+      );
+}
+
+export default Home;

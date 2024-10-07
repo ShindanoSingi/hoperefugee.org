@@ -14,7 +14,7 @@ function Home() {
       return (
             <div className="min-h-screen bg-primary text-my_white font-montserrat flex flex-col">
                   {/* Hero Section */}
-                  <section className="h-[15rem] flex items-center justify-center bg-background-image relative  ">
+                  <section className="flex-1 flex items-center justify-center bg-background-image relative  ">
                         <div className="absolute inset-0 bg-my_black opacity-75"></div>
                         <motion.div
                               initial={{ opacity: 0, y: 50 }}
@@ -25,12 +25,12 @@ function Home() {
                               <h1 className="text-4xl md:text-6xl font-buffalo mb-8">
                                     Refugee Hope Bridge
                               </h1>
-                              <p className="text-xl mt-2 md:text-2xl mb-10">
+                              <p className="text-lg mt-2 md:text-2xl mb-6">
                               Bringing Hope to Refugees' Lives
                               </p>
                               <a
                                     href="#services"
-                                    className="bg-primary  text-my_white text-xl font-bold py-3 px-6 rounded-full hover:bg-my_black"
+                                    className="bg-primary  text-my_white text-xl font-bold py-3 px-6 rounded-full shadow-yellow hover:bg-my_black"
                               >
                                     Discover Our Services
                               </a>
@@ -40,11 +40,11 @@ function Home() {
                   {/* Services Section */}
                   <section
                         id="services"
-                        className="bg-my_white text-my_black flex flex-1"
+                        className="bg-my_white text-my_black "
                   >
-
-                              <img src="/images/Huging.png" alt="" />
-
+                        <div className=" ">
+                              <img src="/images/Huging.png" className="flex flex-1" alt="" />
+                        </div>
                   </section>
             </div>
       );

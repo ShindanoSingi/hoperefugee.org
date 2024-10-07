@@ -10,7 +10,7 @@ function Hambourger() {
     const dispatch = useDispatch();
 
   return (
-    <div className="h-12 w-12 rounded-full bg-my_green shadow-yellow glow-border border-primary border flex items-center lg:hidden" onClick={()=>{dispatch(SetShowMenu(!showMenu))}}>
+    <div className="h-12 w-12 rounded-full shadow-yellow glow-border border-primary border flex items-center lg:hidden" onClick={()=>{dispatch(SetShowMenu(!showMenu))}}>
                                     <Hamburger
                                           toggled={isOpen}
                                           toggle={setOpen}

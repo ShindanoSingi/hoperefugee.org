@@ -32,29 +32,26 @@ body{
     bottom: -5px;
     border-radius: inherit;
     z-index: -1;
-    box-shadow: 0 0 20px 0px #E6C068;
+    box-shadow: 0 0 20px 0px #184690;;
     animation: rotateGlow 5s linear infinite;
   }
 
   @keyframes rotateGlow {
     0% {
-        box-shadow: 0 0 20px 5px #237263;
+        box-shadow: 0 0 20px 5px #184690;
     }
     25% {
-      box-shadow: 0 0 20px 5px #CFBDEC;
+      box-shadow: 0 0 20px 5px #334b4a;
     }
     50% {
-      box-shadow: 0 0 20px 5px #E6C068;
+      box-shadow: 0 0 20px 5px #060A14;
     }
     75% {
-      box-shadow: 0 0 20px 5px #C83349;
+      box-shadow: 0 0 20px 5px #FFFFFF;
     }
     100% {
-      box-shadow: 0 0 20px 5px #237263;
+      box-shadow: 0 0 20px 5px #EFF0F2;
     }
-    120% {
-        box-shadow: 0 0 20px 5px #AA5E46;
-      }
   }
 
 

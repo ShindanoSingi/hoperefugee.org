@@ -21,9 +21,9 @@ module.exports = {
                   fontFamily: {
                     oxygen: ['Oxygen', 'sans-serif'],
                   },
-                //   backgroundImage: {
-                //     'background-image': "url('/images/Huging.png')",
-                //   },
+                  backgroundImage: {
+                    'background-image': "url('/images/Huging.png')",
+                  },
             }
       },
       plugins: [
