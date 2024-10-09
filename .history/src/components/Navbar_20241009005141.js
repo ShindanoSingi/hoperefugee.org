@@ -58,7 +58,7 @@ import {
                       aria-current={location.pathname === item.href ? "page" : undefined}
                       className={classNames(
                         location.pathname === item.href
-                          ? "bg-gray-900 border text-white  text-lg"
+                          ? "bg-gray-900 underline-offset-auto text-white text-lg"
                           : "text-gray-300 hover:bg-gray-700 hover:text-white",
                         "rounded-md px-3 py-2 text-lg font-medium"
                       )}
