@@ -18,7 +18,7 @@ function App() {
 
       return (
             <Router>
-                  <div className="h-screen flex flex-col">
+                  <div className="h-screen flex flex-col bg-my_black">
                   <Navbar />
                         <div className="flex-1">
                               <Routes>
