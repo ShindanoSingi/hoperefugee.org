@@ -7,41 +7,58 @@ function About() {
       };
 
       return (
-            <div className="flex items-center flex-col justify-center">
+            <div className="grid place-content-center">
                   <div
-                        className="bg-cover bg-center grid place-content-center h-64 w-full lg:max-w-7xl mx-4"
+                        className="bg-cover w-full flex justify-center items-center  h-screen"
                         style={{
-                              backgroundImage:
-                                    "url(https://taxilewiston.com/images/1469761/0_0.jpg)"
+                              backgroundImage: "url('/images/AboutUs.jpg')"
                         }}
                   >
-                        <div className="">
-                              <p className="text-shadow-custom text-4xl font-bold text-my_white font-serif">
-                                    ABOUT US
-                              </p>
-                        </div>
-                  </div>
-                  <div className=" lg:max-w-7xl mt-2 mx-4">
                         <motion.div
                               initial={{ opacity: 0, y: -20 }}
                               animate={{ opacity: 1, y: 0 }}
                               transition={{ duration: 0.5 }}
-                              whileHover={{ scale: 1.05 }}
+                              whileHover={{ scale: 1.015 }}
                               whileTap={{ scale: 0.95 }}
-                              className="bg-primary rounded-lg shadow-md p-6"
+                              className=" rounded-lg glass shadow-md max-w-[90%] lg:w-[75%] p-6"
                               role="button"
                               tabIndex={0}
                               aria-label="Clickable Div"
                         >
-                              <h2 className="text-2xl text-my_green font-bold mb-4">
-                                    Welcome to our Hair Braiding Business!
-                              </h2>
-                              <p className="text-lg text-my_black">
-                                    We are dedicated to providing elegant and
-                                    stylish hair braiding services. Our team of
-                                    experts will ensure that you leave our salon
-                                    feeling confident and beautiful.
+                              <p className="text-shadow-custom text-4xl text-center font-bold text-my_white py-2 bg-primary font-serif">
+                                    ABOUT US
                               </p>
+
+                              <h2 className="text-2xl pt-4 text-primary md:text-4xl font-bold mb-4">
+                                    Our Mission
+                              </h2>
+
+                              <motion.div
+                              initial={{ opacity: 0, y: -20 }}
+                              animate={{ opacity: 1, y: 0 }}
+                              transition={{ duration: 0.5 }}
+                              whileHover={{ scale: 1.015 }}
+                              whileTap={{ scale: 0.95 }}
+                              className=" rounded-lg glass shadow-md w-full p-6"
+                              role="button"
+                              tabIndex={0}
+                              aria-label="Clickable Div"
+                        >
+                            <p className="text-lg text-primary font-bold md:text-3xl">
+                                    Our mission is to empower immigrants to become
+                                    fully integrated and self-sufficient members
+                                    of society. We believe that every
+                                    individual, regardless of their background,
+                                    deserves access to comprehensive support
+                                    systems that facilitate their transition
+                                    into a new country. Our organization is
+                                    committed to providing continuous support to
+                                    immigrants far beyond the initial settlement
+                                    phase, ensuring they have the resources and
+                                    guidance they need to thrive.
+                              </p>
+                        </motion.div>
+
                         </motion.div>
                   </div>
             </div>

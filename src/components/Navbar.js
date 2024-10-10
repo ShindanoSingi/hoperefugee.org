@@ -6,15 +6,7 @@ import {
   import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
   import Logo from "./Logo";
   import { Link, useLocation } from "react-router-dom";
-
-  const navigation = [
-    { name: "Home", href: "/" },
-    { name: "About", href: "/about" },
-    { name: "Services", href: "/services" },
-    { name: "Testimonials", href: "/testimonials" },
-    { name: "Gallery", href: "/gallery" },
-    { name: "Contact", href: "/contact" },
-  ];
+  import { navigation } from "../constants/Constants";
 
   function classNames(...classes) {
     return classes.filter(Boolean).join(" ");
@@ -24,7 +16,7 @@ import {
     const location = useLocation();
 
     return (
-      <Disclosure as="nav" className="bg-my_black">
+      <Disclosure as="nav">
         <div className="mx-auto max-w-7xl p-4 py-2 sm:p-4 lg:px-8">
           <div className="relative flex h-16 items-center justify-between">
             <Link to="/">
