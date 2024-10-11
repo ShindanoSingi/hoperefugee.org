@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 
 function About() {
+
       return (
             <div className="grid place-content-center">
                   <div
@@ -70,103 +71,56 @@ function About() {
                                           </div>
                                           <div className="glass p-4">
                                                 <h2 className="text-2xl underline text-primary md:text-4xl font-bold mb-4">
-                                                      Who We Are
+                                                Who We Are
                                                 </h2>
                                                 <p className="text-lg mb-4 text-primary font-bold md:text-3xl">
-                                                      Refugee Hope Bridge is a
-                                                      dedicated nonprofit
-                                                      organization focused on
-                                                      supporting immigrants as
-                                                      they navigate the
-                                                      complexities of settling
-                                                      into a new country.
+                                                Refugee Hope Bridge is a dedicated nonprofit organization focused on supporting immigrants as they navigate the complexities of settling into a new country.
                                                 </p>
                                                 <p className="text-lg mb-4 text-primary font-bold md:text-3xl">
-                                                      Our team is passionate
-                                                      about creating a welcoming
-                                                      environment where
-                                                      immigrants can find the
-                                                      help they need to build a
-                                                      successful and fulfilling
-                                                      life.
+                                                Our team is passionate about creating a welcoming environment where immigrants can find the help they need to build a successful and fulfilling life.
                                                 </p>
                                           </div>
                                           <div className="glass p-4">
                                                 <h2 className="text-2xl underline text-primary md:text-4xl font-bold mb-4">
-                                                      What We Do
+                                                What We Do
                                                 </h2>
                                                 <p className="text-lg mb-4 text-primary font-bold md:text-3xl">
-                                                      • Initial Settlement
-                                                      Assistance: Helping
-                                                      newcomers with housing,
-                                                      employment, and education.
+                                                •	Initial Settlement Assistance: Helping newcomers with housing, employment, and education.
                                                 </p>
                                                 <p className="text-lg mb-4 text-primary font-bold md:text-3xl">
-                                                      • Language and Cultural
-                                                      Training: Providing
-                                                      language classes and
-                                                      cultural orientation to
-                                                      ease the transition.
+                                                •	Language and Cultural Training: Providing language classes and cultural orientation to ease the transition.
                                                 </p>
                                                 <p className="text-lg text-primary font-bold md:text-3xl">
-                                                      • Ongoing Support:
-                                                      Offering continuous
-                                                      guidance and resources to
-                                                      ensure long-term success
-                                                      and integration.
+                                                •	Ongoing Support: Offering continuous guidance and resources to ensure long-term success and integration.
                                                 </p>
                                                 <p className="text-lg text-primary font-bold md:text-3xl">
-                                                      • Community Building:
-                                                      Creating opportunities for
-                                                      immigrants to connect with
-                                                      each other and the broader
-                                                      community.
+                                                •	Community Building: Creating opportunities for immigrants to connect with each other and the broader community.
                                                 </p>
                                           </div>
                                           <div className="glass p-4">
                                                 <h2 className="text-2xl underline text-primary md:text-4xl font-bold mb-4">
-                                                      Our Impact
+                                                Our Impact
                                                 </h2>
                                                 <p className="text-lg mb-4 text-primary font-bold md:text-3xl">
-                                                      Since our inception, we
-                                                      have helped countless
-                                                      immigrants achieve their
-                                                      goals and become active,
-                                                      contributing members of
-                                                      society.
+                                                Since our inception, we have helped countless immigrants achieve their goals and become active, contributing members of society.
                                                 </p>
                                                 <p className="text-lg mb-4 text-primary font-bold md:text-3xl">
-                                                      Our programs have made a
-                                                      significant difference in
-                                                      the lives of many,
-                                                      providing them with the
-                                                      tools and confidence
-                                                      needed to succeed.
+                                                Our programs have made a significant difference in the lives of many, providing them with the tools and confidence needed to succeed.
                                                 </p>
                                           </div>
                                           <div className="glass p-4">
                                                 <h2 className="text-2xl underline text-primary md:text-4xl font-bold mb-4">
-                                                      Get Involved
+                                                Get Involved
                                                 </h2>
                                                 <p className="text-lg mb-4 text-primary font-bold md:text-3xl">
-                                                      We invite you to join us
-                                                      in our mission. Whether
-                                                      you are looking to
-                                                      volunteer, donate, or
-                                                      simply learn more about
-                                                      our work, there are many
-                                                      ways to get involved and
-                                                      make a difference.
+                                                We invite you to join us in our mission. Whether you are looking to volunteer, donate, or simply learn more about our work, there are many ways to get involved and make a difference.
                                                 </p>
-                                                <div className="flex justify-center text-white">
-                                                    <a
-                                                      href="#services"
-                                                      className="bg-primary  text-my_white text-xl font-bold py-3 px-6 rounded-full hover:bg-black"
-                                                >
-                                                      Donate
-                                                </a>
-                                                </div>
-
+                                                <a
+                                    href="#services"
+                                    className="bg-primary  text-my_white text-xl font-bold py-3 px-6 rounded-full hover:bg-my_black"
+                              >
+                                    Discover Our Services
+                              </a>
                                           </div>
                                     </div>
                               </motion.div>

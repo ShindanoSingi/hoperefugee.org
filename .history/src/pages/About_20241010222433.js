@@ -158,12 +158,12 @@ function About() {
                                                       ways to get involved and
                                                       make a difference.
                                                 </p>
-                                                <div className="flex justify-center text-white">
+                                                <div class name="">
                                                     <a
                                                       href="#services"
-                                                      className="bg-primary  text-my_white text-xl font-bold py-3 px-6 rounded-full hover:bg-black"
+                                                      className="bg-primary  text-my_white text-xl font-bold py-3 px-6 rounded-full hover:bg-my_black"
                                                 >
-                                                      Donate
+                                                      Discover Our Services
                                                 </a>
                                                 </div>
 
