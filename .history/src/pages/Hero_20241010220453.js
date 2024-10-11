@@ -9,7 +9,7 @@ function Hero() {
                               initial={{ opacity: 0, y: 50 }}
                               animate={{ opacity: 1, y: 0 }}
                               transition={{ duration: 1 }}
-                              className="relative z-5 text-center p-6 h-[18.5rem] bg-lightblue text-white"
+                              className="relative z-5 text-center p-6 h-[22rem] bg-lightblue text-white"
                         >
                               <h1 className="text-4xl p-2 md:text-6xl font-buffalo mb-8">
                                     Refugee Hope Bridge
@@ -25,11 +25,9 @@ function Hero() {
                               </a>
                         </motion.div>
                   </div>
-                    <img src="/images/Huging.png" className="h-[22rem] md:h-full" alt="home"/>
+                  <img src="/images/Huging.png" alt="home"/>
             </div>
       );
-
-
 }
 
 export default Hero;

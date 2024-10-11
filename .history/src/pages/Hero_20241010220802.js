@@ -25,7 +25,7 @@ function Hero() {
                               </a>
                         </motion.div>
                   </div>
-                    <img src="/images/Huging.png" className="h-[22rem] md:h-full" alt="home"/>
+                  <img src="/images/Huging.png" className="h-full xs:max-h-full" alt="home"/>
             </div>
       );
 

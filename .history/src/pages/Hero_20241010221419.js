@@ -25,7 +25,10 @@ function Hero() {
                               </a>
                         </motion.div>
                   </div>
-                    <img src="/images/Huging.png" className="h-[22rem] md:h-full" alt="home"/>
+                  <div className="sm:h-[40vh] md:h-full">
+                    <img src="/images/Huging.png" className="sm:h-[30rem] md:h-full" alt="home"/>
+                  </div>
+
             </div>
       );
 

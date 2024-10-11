@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 function Hero() {
       return (
             <div className=" text-white bg-lightblue text-my_white font-montserrat flex flex-col">
-                  <div className="flex flex-col h-full flex-1">
+                  <div className="flex flex-col h-[50vh] flex-1">
                         <motion.div
                               initial={{ opacity: 0, y: 50 }}
                               animate={{ opacity: 1, y: 0 }}
@@ -25,7 +25,10 @@ function Hero() {
                               </a>
                         </motion.div>
                   </div>
-                    <img src="/images/Huging.png" className="h-[22rem] md:h-full" alt="home"/>
+                  <div className="h-[40vh]">
+                    <img src="/images/Huging.png" className="h-full" alt="home"/>
+                  </div>
+
             </div>
       );
 
