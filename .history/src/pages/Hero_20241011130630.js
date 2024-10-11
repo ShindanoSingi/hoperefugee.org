@@ -11,7 +11,7 @@ function Hero() {
                               transition={{ duration: 1 }}
                               className="relative z-5 text-center p-2 h-[23.5rem] bg-lightblue text-white"
                         >
-                              <h1 className="text-4xl p-2 mt-2 md:text-6xl font-buffalo mb-8">
+                              <h1 className="text-4xl p-2 pt-2 md:text-6xl font-buffalo mb-8">
                                     Refugee Hope Bridge
                               </h1>
                               <p className="text-xl mt-2 p-2 md:text-2xl mb-10">

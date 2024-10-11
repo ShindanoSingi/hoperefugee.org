@@ -11,22 +11,22 @@ function Hero() {
                               transition={{ duration: 1 }}
                               className="relative z-5 text-center p-2 h-[23.5rem] bg-lightblue text-white"
                         >
-                              <h1 className="text-4xl p-2 mt-2 md:text-6xl font-buffalo mb-8">
+                              <h1 className="text-4xl p-2 md:text-6xl font-buffalo mb-8">
                                     Refugee Hope Bridge
                               </h1>
                               <p className="text-xl mt-2 p-2 md:text-2xl mb-10">
                                     Bringing Hope to Refugees' Lives
                               </p>
-                              <div className="flex flex-col justify-center items-center md:w-lvw gap-4">
+                              <div className="flex flex-col md:w-lvw gap-4 md:flex-row">
                                     <a
                                           href="#services"
-                                          className="bg-blue-700 w-[20rem] text-white text-2xl font-bold border-white border-2 py-3 px-6 rounded-full hover:bg-primary"
+                                          className="bg-blue-700 md:w-[20rem] text-my_white text-xl font-bold border-white border-2 py-3 px-6 rounded-full hover:bg-black"
                                     >
-                                          DONATE
+                                          Donate
                                     </a>
                                     <a
                                           href="#services"
-                                          className="bg-primary w-[20rem] text-my_white text-xl font-bold border-black border-2 py-3 px-6 rounded-full hover:bg-black"
+                                          className="bg-primary  text-my_white text-xl font-bold py-3 px-6 rounded-full hover:bg-black"
                                     >
                                           Discover Our Services
                                     </a>
