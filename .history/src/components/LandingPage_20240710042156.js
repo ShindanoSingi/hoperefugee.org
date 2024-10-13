@@ -4,8 +4,6 @@ import Header from './Header';
 import PictureCard from './PictureCard';
 import { animated, useTrail } from '@react-spring/web';
 
-import '../../public/images/2.png';
-
 
 const LandingPage = () => {
     const pictures = [

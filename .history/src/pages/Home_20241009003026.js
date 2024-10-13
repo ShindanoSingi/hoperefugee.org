@@ -43,7 +43,7 @@ function Home() {
                         className="bg-my_white text-my_black flex flex-1"
                   >
 
-                              <img src="/images/Huging.png" alt="" className="cover" />
+                              <img src="/images/hug.png" alt="" className="cover" />
 
                   </section>
             </div>

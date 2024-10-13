@@ -124,7 +124,7 @@ const LandingPage = () => {
   });
 
   return (
-    <div className="min-h-screen bg-contain bg-center bg-no-repeat bg-[url('/public/images/2.png')] md:bg-[url('/public/images/Anna_langing_page_big.png')]">
+    <div className="min-h-screen ">
         <div>
             <ul>
                 <li className='text-primary'>Home</li>
