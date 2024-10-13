@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import Button from "../components/Button";
 
 function About() {
       return (
@@ -13,19 +12,23 @@ function About() {
                   >
                         <motion.div
                               initial={{ opacity: 0, y: -20 }}
-                              animate={{ opacity: 2, y: 0 }}
+                              animate={{ opacity: 1, y: 0 }}
                               transition={{ duration: 0.5 }}
+                              whileTap={{ scale: 0.95 }}
                               className=" rounded-lg glass shadow-md max-w-[90%] lg:w-[75%] p-6"
                               role="button"
                               tabIndex={0}
+                              aria-label="Clickable Div"
                         >
                               <p className="text-shadow-custom text-4xl text-center font-bold w-full text-white py-2 bg-primary font-serif">
                                     ABOUT US
                               </p>
                               <motion.div
                                     initial={{ opacity: 0, y: -20 }}
-                                    animate={{ opacity: 2, y: 0 }}
+                                    animate={{ opacity: 1, y: 0 }}
                                     transition={{ duration: 0.5 }}
+                                    whileHover={{ scale: 1.015 }}
+                                    whileTap={{ scale: 0.95 }}
                                     className=" rounded-lg mt-4 shadow-md w-full"
                                     role="button"
                                     tabIndex={0}
@@ -155,7 +158,12 @@ function About() {
                                                       make a difference.
                                                 </p>
                                                 <div className="flex justify-center text-white">
-                                                    <Button type="primary" text='DONATE' border='white' hoverColor="primary" href={'#services'}/>
+                                                    <a
+                                                      href="#services"
+                                                      className="bg-primary  text-my_white text-xl font-bold py-3 px-6 rounded-full hover:bg-black"
+                                                >
+                                                      Donate
+                                                </a>
                                                 </div>
 
                                           </div>

@@ -18,11 +18,11 @@ import {
     return (
       <Disclosure as="nav" >
         <div className="mx-auto w-full p-4 py-2 sm:p-4 lg:px-8 bg-primary">
-          <div className="relative flex items-center justify-between">
+          <div className="relative flex h-16 items-center justify-between">
             <Link to="/">
               <div className="flex gap-6 items-center">
                 <Logo />
-                <strong className="text-white text-xl md:text-3xl lg:text-4xl">
+                <strong className="text-white text-xl md:text-2xl lg:text-4xl">
                   Refugee Hope Bridge
                 </strong>
               </div>
@@ -64,7 +64,7 @@ import {
           </div>
         </div>
 
-        <DisclosurePanel className=" bg-secondary lg:hidden">
+        <DisclosurePanel className=" bg-slate-300 lg:hidden">
           <div className="space-y-1 px-2 pb-3 pt-2">
             {navigation.map((item) => (
               <DisclosureButton
@@ -74,8 +74,8 @@ import {
                 aria-current={location.pathname === item.href ? "page" : undefined}
                 className={classNames(
                   location.pathname === item.href
-                    ? "bg-gray border rounded-lg border-gray text-xl text-blacktext px-3 py-2 text-md"
-                    : "text-blacktext border-lightblue text-xl border rounded-lg bg-lightblue  hover:bg-gray-700 hover:text-white",
+                    ? "bg-gray border rounded-lg border-gray text-lg text-blacktext px-3 py-2 text-md"
+                    : "text-blacktext border-lightblue border rounded-lg bg-lightblue  hover:bg-gray-700 hover:text-white",
                   "block px-3 py-2 text-md text-lg"
                 )}
               >

@@ -32,25 +32,25 @@ body{
     bottom: -5px;
     border-radius: inherit;
     z-index: -1;
-    box-shadow: 0 0 20px 0px #184690;
+    box-shadow: 0 0 20px 0px #184690;;
     animation: rotateGlow 5s linear infinite;
   }
 
   @keyframes rotateGlow {
     0% {
-        box-shadow: 0 0 50px 5px #FFFFFF;
+        box-shadow: 0 0 20px 5px #FFFFFF;
     }
     25% {
       box-shadow: 0 0 20px 5px #FFFFFF;
     }
     50% {
-      box-shadow: 0 0 50px 5px #FFFFFF;
+      box-shadow: 0 0 20px 5px #FFFFFF;
     }
     75% {
       box-shadow: 0 0 20px 5px #FFFFFF;
     }
     100% {
-      box-shadow: 0 0 50px 5px #EFF0F2;
+      box-shadow: 0 0 20px 5px #EFF0F2;
     }
   }
 

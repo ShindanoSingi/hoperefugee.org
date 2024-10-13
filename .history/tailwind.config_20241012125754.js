@@ -4,13 +4,13 @@ module.exports = {
             extend: {
                   colors: {
                         primary: "#184690",
-                        bright: "#1D4ED8",
-                        secondary: "#7497D8",
                         black: "#101D38",
                         blacktext:"000000",
                         whitetext: "#FFFFFF",
+                        warning: "#AA5E46",
                         gray: "#9CA3AF",
-
+                        red: "#C83349",
+                        lightblue: "#7497D8",
 
                   },
                   boxShadow: {

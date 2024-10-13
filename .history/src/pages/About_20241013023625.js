@@ -155,7 +155,13 @@ function About() {
                                                       make a difference.
                                                 </p>
                                                 <div className="flex justify-center text-white">
-                                                    <Button type="primary" text='DONATE' border='white' hoverColor="primary" href={'#services'}/>
+                                                    <Button type="primary" text='DONATE' border='white' hoverColor="primary"/>
+                                                    <a
+                                                      href="#services"
+                                                      className="bg-primary  text-my_white text-xl font-bold py-3 px-6 rounded-full hover:bg-black"
+                                                >
+                                                      Donate
+                                                </a>
                                                 </div>
 
                                           </div>

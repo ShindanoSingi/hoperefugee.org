@@ -64,13 +64,13 @@ import {
           </div>
         </div>
 
-        <DisclosurePanel className=" bg-secondary lg:hidden">
+        <DisclosurePanel className=" bg-slate-300 lg:hidden">
           <div className="space-y-1 px-2 pb-3 pt-2">
             {navigation.map((item) => (
               <DisclosureButton
                 key={item.name}
                 as={Link}
-                to={item.href}
+                to={item.id}
                 aria-current={location.pathname === item.href ? "page" : undefined}
                 className={classNames(
                   location.pathname === item.href

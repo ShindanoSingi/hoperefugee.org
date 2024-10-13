@@ -22,7 +22,7 @@ import {
             <Link to="/">
               <div className="flex gap-6 items-center">
                 <Logo />
-                <strong className="text-white text-xl md:text-3xl lg:text-4xl">
+                <strong className="text-white text-xl md:text-2xl lg:text-4xl">
                   Refugee Hope Bridge
                 </strong>
               </div>
@@ -64,7 +64,7 @@ import {
           </div>
         </div>
 
-        <DisclosurePanel className=" bg-secondary lg:hidden">
+        <DisclosurePanel className=" bg-slate-300 lg:hidden">
           <div className="space-y-1 px-2 pb-3 pt-2">
             {navigation.map((item) => (
               <DisclosureButton

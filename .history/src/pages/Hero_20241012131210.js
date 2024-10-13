@@ -4,7 +4,7 @@ import Button from "../components/Button";
 
 function Hero() {
       return (
-            <div className=" text-white bg-black text-my_white font-montserrat flex flex-col">
+            <div className=" text-white bg-lightblue text-my_white font-montserrat flex flex-col">
                   <div className="flex flex-col h-full flex-1">
                         <motion.div
                               initial={{ opacity: 0, y: 50 }}
@@ -19,8 +19,19 @@ function Hero() {
                                     Bringing Hope to Refugees' Lives
                               </p>
                               <div className="flex flex-col justify-center items-center md:w-lvw gap-4">
-                                    <Button type="primary" href="#services" text='DONATE' border='white' hoverColor='primary'/>
-                                    <Button type="primary" href="#services" text='Discover Our Services' border='black'/>
+                                    <a
+                                          href="#services"
+                                          className="bg-blue-700 w-[20rem] text-white text-2xl font-bold border-white border-2 py-3 px-6 rounded-full hover:bg-primary"
+                                    >
+                                          DONATE
+                                    </a>
+                                    <Button type="primary" text='Discover Our Services' border='black'/>
+                                    {/* <a
+                                          href="#services"
+                                          className="bg-primary w-[20rem] text-my_white text-xl font-bold border-black border-2 py-3 px-6 rounded-full hover:bg-black"
+                                    >
+                                          Discover Our Services
+                                    </a> */}
                               </div>
                         </motion.div>
                   </div>

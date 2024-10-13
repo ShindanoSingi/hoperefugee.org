@@ -4,7 +4,7 @@ import Button from "../components/Button";
 
 function Hero() {
       return (
-            <div className=" text-white bg-black text-my_white font-montserrat flex flex-col">
+            <div className=" text-white bg-primary text-my_white font-montserrat flex flex-col">
                   <div className="flex flex-col h-full flex-1">
                         <motion.div
                               initial={{ opacity: 0, y: 50 }}
