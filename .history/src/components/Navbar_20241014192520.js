@@ -89,11 +89,7 @@ import Button from "./Button";
                             <Button type="primary" href="/donate" text='DONATE' border='white' hoverColor='primary'/>
                         </div>
           </div>
-
         </DisclosurePanel>
-        <div className="flex flex-col items-center mt-1 gap-4">
-
-                        </div>
       </Disclosure>
     );
   }

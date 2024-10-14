@@ -18,7 +18,7 @@ import Button from "./Button";
 
     return (
       <Disclosure as="nav" >
-        <div className="mx-auto w-full p-4 py-2 sm:p-4 lg:px-8 bg-primary">
+        <div className=" w-full p-4 py-2 sm:p-4 lg:px-8 bg-primary">
           <div className="relative flex items-center justify-between">
             <Link to="/">
               <div className="flex gap-6 items-center">
@@ -91,7 +91,7 @@ import Button from "./Button";
           </div>
 
         </DisclosurePanel>
-        <div className="flex flex-col items-center mt-1 gap-4">
+        <div className="flex flex-col items-center mt-10 gap-4">
 
                         </div>
       </Disclosure>

@@ -91,7 +91,7 @@ import Button from "./Button";
           </div>
 
         </DisclosurePanel>
-        <div className="flex flex-col items-center mt-1 gap-4">
+        <div className="flex flex-col items-center mt-10 gap-4">
 
                         </div>
       </Disclosure>
