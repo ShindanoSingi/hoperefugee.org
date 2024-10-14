@@ -5,13 +5,13 @@ const Button = ({ href, icon, text, type = 'default', border = 'black', hoverCol
       default: 'bg-gray-200 text-black hover:bg-gray-300',
       primary: 'bg-primary text-my_white hover:bg-black',
       secondary: 'bg-gray-400 text-black hover:bg-gray-600',
-      disabled: 'bg-gray-300 text-gray-500',
+      disabled: 'bg-gray-300 text-gray-500 cursor-not-allowed',
     };
 
     const borderClasses = {
       white: 'border-white',
       black: 'border-black',
-      bright: 'border-blue-600',
+      bright: 'border-lightblue',
       noborder: 'border-none',
     };
 

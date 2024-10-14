@@ -11,7 +11,7 @@ const Button = ({ href, icon, text, type = 'default', border = 'black', hoverCol
     const borderClasses = {
       white: 'border-white',
       black: 'border-black',
-      bright: 'border-blue-600',
+      bright: 'border-gray-500',
       noborder: 'border-none',
     };
 
