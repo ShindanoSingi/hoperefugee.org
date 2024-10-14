@@ -152,7 +152,7 @@ function Footer() {
                             <Button type="primary" href="/donate" text='DONATE' border='white' hoverColor='primary'/>
                         </div>
                         <p class="mt-8 text-lg md:text-xl text-white text-center">
-                              © 2024 Refugee Hope Bridge
+                              © 2024 Refuge Hope Bridge
                         </p>
                   </div>
             </footer>
