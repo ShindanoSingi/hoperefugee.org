@@ -25,7 +25,7 @@ function Footer() {
                                                 />
                                           </div>
                                           <strong className="text-xl md:text-2xl">
-                                                Refugee Hope Bridge
+                                                Refuge Hope Bridge
                                           </strong>
                                     </div>
 
