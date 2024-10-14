@@ -104,14 +104,14 @@ function About() {
                                                       cultural orientation to
                                                       ease the transition.
                                                 </p>
-                                                <p className="text-lg mb-4 text-primary font-bold md:text-3xl">
+                                                <p className="text-lg text-primary font-bold md:text-3xl">
                                                       Ongoing Support:
                                                       Offering continuous
                                                       guidance and resources to
                                                       ensure long-term success
                                                       and integration.
                                                 </p>
-                                                <p className="text-lg mb-4 text-primary font-bold md:text-3xl">
+                                                <p className="text-lg text-primary font-bold md:text-3xl">
                                                       Community Building:
                                                       Creating opportunities for
                                                       immigrants to connect with
