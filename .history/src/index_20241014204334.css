@@ -23,7 +23,7 @@ body{
     z-index: 1;
   }
 
-  ..glow-border::before {
+  .glow-border::before {
     content: '';
     position: absolute;
     top: -5px;

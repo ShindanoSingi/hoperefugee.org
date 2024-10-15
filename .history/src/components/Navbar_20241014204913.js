@@ -18,10 +18,10 @@ export default function Navbar() {
 
       return (
             <Disclosure as="nav">
-                  <div className="mx-auto w-full p-2 sm:p-4 lg:px-8 bg-black">
+                  <div className="mx-auto w-full p-4 py-2 sm:p-4 lg:px-8 bg-black">
                         <div className="relative flex items-center justify-between">
                               <Link to="/">
-                                    <div className="flex gap-6 items-center">
+                                    <div className="flex gap-6 p-1 items-center">
                                           <div className=" bg-white rounded-full">
                                                 <Logo />
                                           </div>

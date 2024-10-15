@@ -18,7 +18,7 @@ export default function Navbar() {
 
       return (
             <Disclosure as="nav">
-                  <div className="mx-auto w-full p-2 sm:p-4 lg:px-8 bg-black">
+                  <div className="mx-auto w-full p-4 sm:p-4 lg:px-8 bg-black">
                         <div className="relative flex items-center justify-between">
                               <Link to="/">
                                     <div className="flex gap-6 items-center">
