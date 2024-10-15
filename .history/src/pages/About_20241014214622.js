@@ -6,10 +6,10 @@ function About() {
       return (
             <div className="grid place-content-center">
                   <div
-                        className="bg-cover w-full flex justify-center items-center  h-screen"
-                        style={{
-                              backgroundImage: "url('/images/aboutus.jpg')"
-                        }}
+                        className="bg-cover w-full bg-gray flex justify-center items-center  h-screen"
+                        // style={{
+                        //       backgroundImage: "url('/images/aboutus.jpg')"
+                        // }}
                   >
                         <motion.div
                               initial={{ opacity: 0, y: -20 }}

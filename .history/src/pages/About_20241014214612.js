@@ -7,9 +7,9 @@ function About() {
             <div className="grid place-content-center">
                   <div
                         className="bg-cover w-full flex justify-center items-center  h-screen"
-                        style={{
-                              backgroundImage: "url('/images/aboutus.jpg')"
-                        }}
+                        // style={{
+                        //       backgroundImage: "url('/images/aboutus.jpg')"
+                        // }}
                   >
                         <motion.div
                               initial={{ opacity: 0, y: -20 }}

@@ -26,7 +26,7 @@ function About() {
                                     transition={{ duration: 0.5 }}
                                     className=" rounded-lg mt-4 shadow-md w-full"
                               >
-                                    <div className="flex max-h-[80vh] overflow-auto md:landscape:h-[100%]   flex-col gap-6">
+                                    <div className="flex max-h-[80vh] overflow-auto landscape:h-[6rem] md:landscape:h-[100%]   flex-col gap-6">
                                           <div className="glass p-4">
                                                 <h2 className="text-2xl underline text-primary md:text-4xl font-bold mb-4">
                                                       Our Mission

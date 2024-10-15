@@ -6,10 +6,10 @@ function About() {
       return (
             <div className="grid place-content-center">
                   <div
-                        className="bg-cover w-full flex justify-center items-center  h-screen"
-                        style={{
-                              backgroundImage: "url('/images/aboutus.jpg')"
-                        }}
+                        className="bg-cover w-full flex bg-blue-400 justify-center items-center  h-screen"
+                        // style={{
+                        //       backgroundImage: "url('/images/aboutus.jpg')"
+                        // }}
                   >
                         <motion.div
                               initial={{ opacity: 0, y: -20 }}
@@ -24,7 +24,7 @@ function About() {
                                     initial={{ opacity: 0, y: -20 }}
                                     animate={{ opacity: 2, y: 0 }}
                                     transition={{ duration: 0.5 }}
-                                    className=" rounded-lg mt-4 shadow-md w-full"
+                                    className=" rounded-lg shadow-md w-full"
                               >
                                     <div className="flex max-h-[80vh] overflow-auto md:landscape:h-[100%]   flex-col gap-6">
                                           <div className="glass p-4">

@@ -6,16 +6,16 @@ function About() {
       return (
             <div className="grid place-content-center">
                   <div
-                        className="bg-cover w-full flex justify-center items-center  h-screen"
-                        style={{
-                              backgroundImage: "url('/images/aboutus.jpg')"
-                        }}
+                        className="bg-cover w-full flex bg-blue-200 justify-center items-center  h-screen"
+                        // style={{
+                        //       backgroundImage: "url('/images/aboutus.jpg')"
+                        // }}
                   >
                         <motion.div
                               initial={{ opacity: 0, y: -20 }}
                               animate={{ opacity: 2, y: 0 }}
                               transition={{ duration: 0.5 }}
-                              className=" rounded-lg glass max-w-[90%] lg:w-[75%] p-2"
+                              className=" rounded-lg max-w-[90%] lg:w-[75%] p-2"
                         >
                               <p className="text-shadow-custom text-4xl text-center font-bold w-full text-white py-2 bg-primary font-serif">
                                     ABOUT US
@@ -24,10 +24,10 @@ function About() {
                                     initial={{ opacity: 0, y: -20 }}
                                     animate={{ opacity: 2, y: 0 }}
                                     transition={{ duration: 0.5 }}
-                                    className=" rounded-lg mt-4 shadow-md w-full"
+                                    className=" rounded-lg shadow-md w-full"
                               >
                                     <div className="flex max-h-[80vh] overflow-auto md:landscape:h-[100%]   flex-col gap-6">
-                                          <div className="glass p-4">
+                                          <div className=" p-4">
                                                 <h2 className="text-2xl underline text-primary md:text-4xl font-bold mb-4">
                                                       Our Mission
                                                 </h2>
