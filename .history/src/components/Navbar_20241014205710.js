@@ -17,12 +17,12 @@ export default function Navbar() {
       const location = useLocation();
 
       return (
-            <Disclosure className='z-20' as="nav">
-                  <div className="mx-auto  w-full p-2 sm:p-4 lg:px-8 bg-black">
-                        <div className="relative flex p-2 items-center justify-between">
+            <Disclosure as="nav">
+                  <div className="mx-auto w-full p-2 sm:p-4 lg:px-8 bg-black">
+                        <div className="relative flex items-center justify-between">
                               <Link to="/">
                                     <div className="flex gap-6 items-center">
-                                          <div className=" bg-white rounded-full">
+                                          <div className=" bg-white border-primary border-1 rounded-full">
                                                 <Logo />
                                           </div>
                                           <strong className="text-white text-xl md:text-3xl lg:text-4xl">

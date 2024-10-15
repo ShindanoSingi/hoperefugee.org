@@ -38,7 +38,7 @@ body{
 
   @keyframes rotateGlow {
     0% {
-        box-shadow: 0 0 20px 5px #FFFFFF;
+        box-shadow: 0 0 10px 5px #FFFFFF;
     }
     25% {
       box-shadow: 0 0 10px 5px #FFFFFF;

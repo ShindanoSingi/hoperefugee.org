@@ -17,9 +17,9 @@ export default function Navbar() {
       const location = useLocation();
 
       return (
-            <Disclosure className='z-20' as="nav">
+            <Disclosure className='z-20 p-4' as="nav">
                   <div className="mx-auto  w-full p-2 sm:p-4 lg:px-8 bg-black">
-                        <div className="relative flex p-2 items-center justify-between">
+                        <div className="relative flex items-center justify-between">
                               <Link to="/">
                                     <div className="flex gap-6 items-center">
                                           <div className=" bg-white rounded-full">
