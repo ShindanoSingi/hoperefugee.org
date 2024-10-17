@@ -8,6 +8,7 @@ import Logo from "./Logo";
 import { Link, useLocation } from "react-router-dom";
 import { navigation } from "../constants/Constants";
 import Button from "./Button";
+import PageTheme from "./PageTheme";
 
 function classNames(...classes) {
       return classes.filter(Boolean).join(" ");

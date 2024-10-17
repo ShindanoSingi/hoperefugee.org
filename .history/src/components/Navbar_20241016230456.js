@@ -79,7 +79,6 @@ export default function Navbar() {
                   </div>
 
                   <DisclosurePanel className=" bg-secondary pb-4 flex flex-col lg:hidden">
-
                         <div className="space-y-1 px-2 pb-3 pt-2">
                               {navigation.map((item) => (
                                     <DisclosureButton

@@ -8,6 +8,7 @@ import Logo from "./Logo";
 import { Link, useLocation } from "react-router-dom";
 import { navigation } from "../constants/Constants";
 import Button from "./Button";
+import PageTheme from "./PageTheme";
 
 function classNames(...classes) {
       return classes.filter(Boolean).join(" ");
@@ -81,6 +82,9 @@ export default function Navbar() {
                   <DisclosurePanel className=" bg-secondary pb-4 flex flex-col lg:hidden">
 
                         <div className="space-y-1 px-2 pb-3 pt-2">
+                        <div className="bg-red-600">
+                        <PageTheme />
+                    </div>
                               {navigation.map((item) => (
                                     <DisclosureButton
                                           key={item.name}
