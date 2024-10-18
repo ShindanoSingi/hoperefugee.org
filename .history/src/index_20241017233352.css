@@ -1,0 +1,98 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+body{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f3f4f6;
+
+}
+
+.menu-item:hover, .menu-item:focus, .menu-item:active{
+    @apply bg-primary;
+    @apply text-black;
+    @apply font-bold;
+}
+
+.glow-border {
+    position: relative;
+    z-index: 1;
+  }
+
+  .glow-border::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    left: -5px;
+    right: -5px;
+    bottom: -5px;
+    border-radius: inherit;
+    z-index: -1;
+    box-shadow: 0 0 20px 0px #184690;
+    animation: rotateGlow 5s linear infinite;
+  }
+
+  @keyframes rotateGlow {
+    0% {
+        box-shadow: 0 0 20px 5px #FFFFFF;
+    }
+    25% {
+      box-shadow: 0 0 10px 5px #FFFFFF;
+    }
+    50% {
+      box-shadow: 0 0 20px 5px #FFFFFF;
+    }
+    75% {
+      box-shadow: 0 0 10px 5px #FFFFFF;
+    }
+    100% {
+      box-shadow: 0 0 20px 5px #EFF0F2;
+    }
+  }
+
+  .glass {
+    background-color: rgba(255, 255, 255, 0.2); /* Adjust the RGBA values for color and opacity */
+    -webkit-backdrop-filter: blur(10px); /* Adjust the blur amount as needed for Safari */
+    backdrop-filter: blur(10px); /* Adjust the blur amount as needed */
+    border-radius: 10px; /* Optional: adds rounded corners */
+    border: 1px solid rgba(255, 255, 255, 0.5); /* Optional: adds a light border */
+  }
+
+  .navline {
+    background: linear-gradient(to right, #7497D8, #9CA3AF, #7497D8, #7497D8);
+    color: #7497D8;
+}
+
+/* HTML: <div class="loader"></div> */
+.loader {
+    --r1: 154%;
+    --r2: 68.5%;
+    overflow: hidden;
+    border-radius: 50%;
+    background: radial-gradient(var(--r1) var(--r2) at top, #0000 79.5%, #269af2 80%),
+                radial-gradient(var(--r1) var(--r2) at bottom, #269af2 79.5%, #0000 80%),
+                radial-gradient(var(--r1) var(--r2) at top, #0000 79.5%, #269af2 80%),
+                #ccc;
+    background-size: 50.5% 220%;
+    background-repeat: no-repeat;
+    animation: l9 2s infinite linear;
+}
+
+@keyframes l9 {
+    33% {background-position: 0% 33%, 100% 33%, 200% 33%;}
+    66% {background-position: -100% 66%, 0% 66%, 100% 66%;}
+    100% {background-position: 0% 100%, 100% 100%, 200% 100%;}
+}
+
+
+
+
+
+
+
+
+
