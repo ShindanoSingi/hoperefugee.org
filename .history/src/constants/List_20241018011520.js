@@ -18,7 +18,7 @@ export const list = [
         imageName: "unempl.jpg",
         title: 'Unemployment Process',
         subtitle: "Guidance in navigating unemployment benefits",
-        content: "We support refugees applying for unemployment benefits, assisting with paperwork and weekly claims to secure essential financial aid during their transition to stability. Our team is here to help."
+        content: "We provide comprehensive assistance to help refugees navigate the complexities of applying for unemployment benefits, ensuring they have the guidance needed to secure financial support during transitions. Our dedicated team helps with all paperwork, applying for unemployment, and filing weekly claims to support their journey to stability."
     },
     {
         id: 3,

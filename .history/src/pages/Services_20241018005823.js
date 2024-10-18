@@ -14,13 +14,13 @@ function Services() {
                                     />
                               </div>
                               <div class="w-full flex px-4 items-center justify-center">
-                                    <div class="items-center shadow-md rounded-lg w-full shadow-black pb-12 px-6 flex flex-wrap">
+                                    <div class="items-center shadow-md rounded-lg w-full lg:w-[60rem] shadow-black pb-12 px-4 flex flex-wrap">
                                           <div class="w-full text-center">
                                                 <div class="pt-4 text-white">
                                                       <h1 class="text-white font-semibold text-5xl">
                                                             Services
                                                       </h1>
-                                                      <p class="mt-4 text-lg md:text-xl lg:text-2xl">
+                                                      <p class="mt-4 text-lg md:text-xl text-blueGray-200">
                                                             We are dedicated to
                                                             providing
                                                             comprehensive
@@ -28,7 +28,7 @@ function Services() {
                                                             throughout their
                                                             journey.
                                                       </p>
-                                                      <p class="mt-4 text-lg md:text-xl lg:text-2xl">
+                                                      <p class="mt-4 text-lg md:text-xl text-blueGray-200">
                                                             Our services are
                                                             designed to address
                                                             the unique needs of
@@ -56,16 +56,16 @@ function Services() {
                                     </svg>
                               </div>
                         </div>
-                        <section class=" bg-gray -mt-[5rem]">
-                              <div class="px-4 pb-4">
+                        <section class=" bg-gray -mt-32">
+                              <div class="px-4">
                                     {
                                         list.length < 0 ? <Loader /> :
                                         <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                                         {
                                             list.map((item, index) => {
                                                 return (
-                                                      <div class=" w-full text-center">
-                                                        <div class="relative flex flex-col break-words h-[40rem] md:h-[48rem] shadow-darkgrey bg-white w-full  shadow-lg rounded-lg">
+                                                      <div class="lg:pt-12 pt-6 w-full text-center">
+                                                        <div class="relative flex flex-col break-words shadow-darkgrey bg-white w-full  shadow-lg rounded-lg">
                                                           <div>
                                                                 <div>
                                                                   <img

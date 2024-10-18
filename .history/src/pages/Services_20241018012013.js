@@ -13,8 +13,8 @@ function Services() {
                                           class="w-full h-full opacity-75 bg-darkgrey"
                                     />
                               </div>
-                              <div class="w-full flex px-4 items-center justify-center">
-                                    <div class="items-center shadow-md rounded-lg w-full shadow-black pb-12 px-6 flex flex-wrap">
+                              <div class="w-full flex  items-center justify-center">
+                                    <div class="items-center shadow-md rounded-lg w-full lg:w-[60rem] shadow-black pb-12 px-6 flex flex-wrap">
                                           <div class="w-full text-center">
                                                 <div class="pt-4 text-white">
                                                       <h1 class="text-white font-semibold text-5xl">
@@ -56,7 +56,7 @@ function Services() {
                                     </svg>
                               </div>
                         </div>
-                        <section class=" bg-gray -mt-[5rem]">
+                        <section class=" bg-gray -mt-32">
                               <div class="px-4 pb-4">
                                     {
                                         list.length < 0 ? <Loader /> :
