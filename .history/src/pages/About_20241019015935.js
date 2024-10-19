@@ -6,7 +6,12 @@ function About() {
       return (
             <div className="grid place-content-center">
                   <div
-                        className="about-container w-full flex justify-center items-center  h-screen"
+                        className="flex flex-col items-center justify-center py-4 w-full h-full"
+                        style={{
+                              backgroundImage: `url(/images/aboutus.jpg)`,
+                              backgroundSize: "cover",
+                              backgroundPosition: "center",
+                        }}
                   >
                         <motion.div
                               initial={{ opacity: 0, y: -20 }}

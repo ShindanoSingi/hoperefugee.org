@@ -6,7 +6,7 @@ function About() {
       return (
             <div className="grid place-content-center">
                   <div
-                        className="about-container w-full flex justify-center items-center  h-screen"
+                        className="bg-cover w-full flex justify-center items-center  h-screen"
                   >
                         <motion.div
                               initial={{ opacity: 0, y: -20 }}

@@ -93,8 +93,6 @@ body{
 .about-container{
     background-image: url('../public/images/aboutus.jpg');
     background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
 }
 
 

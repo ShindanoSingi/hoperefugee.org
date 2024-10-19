@@ -90,13 +90,6 @@ body{
     100% {background-position: 0% 100%, 100% 100%, 200% 100%;}
 }
 
-.about-container{
-    background-image: url('../public/images/aboutus.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
-
 
 
 

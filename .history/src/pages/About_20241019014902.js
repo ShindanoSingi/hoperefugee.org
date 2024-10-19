@@ -6,7 +6,8 @@ function About() {
       return (
             <div className="grid place-content-center">
                   <div
-                        className="about-container w-full flex justify-center items-center  h-screen"
+                        className="flex flex-col items-center bg-background-image bg-cover justify-center py-4 w-full h-full"
+
                   >
                         <motion.div
                               initial={{ opacity: 0, y: -20 }}

@@ -91,10 +91,7 @@ body{
 }
 
 .about-container{
-    background-image: url('../public/images/aboutus.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-image: url('https://images.unsplash.com/photo-1622838320000-4b3b3b3b3b3b');
 }
 
 

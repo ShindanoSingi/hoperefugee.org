@@ -24,7 +24,7 @@ module.exports = {
                     oxygen: ['Oxygen', 'sans-serif'],
                   },
                   backgroundImage: {
-                    // 'background-image': "url('public/images/aboutus.jpg')",
+                    'background-image': "url('../images/aboutus.jpg')",
                   },
             }
       },

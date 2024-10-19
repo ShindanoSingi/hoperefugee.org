@@ -24,7 +24,7 @@ module.exports = {
                     oxygen: ['Oxygen', 'sans-serif'],
                   },
                   backgroundImage: {
-                    // 'background-image': "url('public/images/aboutus.jpg')",
+                    'background-image': "url('/Users/shindanosingi/Desktop/2024/Software Projects/Refugee_Hope_Bridge/Website/Frontend/public/images/aboutus.jpg')",
                   },
             }
       },
