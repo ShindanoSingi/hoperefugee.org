@@ -1,4 +1,13 @@
-export const list = [
+export const navigation = [
+    { name: "Home", href: "/" },
+    { name: "About", href: "/about" },
+    { name: "Services", href: "/services" },
+    { name: "Testimonials", href: "/testimonials" },
+    { name: "Gallery", href: "/gallery" },
+    { name: "Contact", href: "/contact" },
+  ];
+
+  export const list = [
     {
         id: 1,
         imageName: "apartment.jpg",
@@ -33,5 +42,36 @@ export const list = [
         title: 'Interpretation',
         subtitle: "Ensuring Clear Communication Through Customized Dialect Support",
         content: "We provide interpretation and translation services tailored for refugees. Unlike regular services, we offer simple interpretation that aligns dialects. For instance, a Swahili interpreter from Congo ensures clear communication with clients from that region."
+    },
+];
+
+export const contacts = [
+    {
+        image: 'test.jpg',
+        content: 'John Doe',
+        role: 'CEO',
+        email: 'johndoe@example.com',
+        phone: '+1(123) 456-7890',
+    },
+    {
+        image: 'test.jpg',
+        content: 'John Doe',
+        role: 'CEO',
+        email: 'johndoe@example.com',
+        phone: '+1(123) 456-7890',
+    },
+    {
+        image: 'test.jpg',
+        content: 'John Doe',
+        role: 'CEO',
+        email: 'johndoe@example.com',
+        phone: '+1(123) 456-7890',
+    },
+    {
+        image: 'test.jpg',
+        content: 'John Doe',
+        role: 'CEO',
+        email: 'johndoe@example.com',
+        phone: '+1(123) 456-7890',
     },
 ]
