@@ -16,7 +16,7 @@ export const list = [
     {
         id: 3,
         imageName: "unempl.jpg",
-        title: 'Unemployment',
+        title: 'Unemployment Process',
         subtitle: "Guidance in navigating unemployment benefits",
         content: "We support refugees applying for unemployment benefits, assisting with paperwork and weekly claims to secure essential financial aid during their transition to stability. Our team is here to help."
     },
@@ -30,8 +30,8 @@ export const list = [
     {
         id: 5,
         imageName: "interpreter.jpg",
-        title: 'Interpretation',
-        subtitle: "Ensuring Clear Communication Through Customized Dialect Support",
-        content: "We provide interpretation and translation services tailored for refugees. Unlike regular services, we offer simple interpretation that aligns dialects. For instance, a Swahili interpreter from Congo ensures clear communication with clients from that region."
+        title: 'Tailored Interpretation Services',
+        subtitle: "Ensuring Clear Communication Through Customized Dialect Support for Accurate Understanding",
+        content: "We also provide interpretation and translation services tailored to refugees. Unlike regular services, we offer simple interpretation that aligns the dialects of both the provider and client. For instance, a Swahili interpreter from the Democratic Republic of Congo will ensure clear communication with clients from that region, while addressing differences for those from Tanzania. This approach guarantees that both parties fully understand each other."
     },
 ]

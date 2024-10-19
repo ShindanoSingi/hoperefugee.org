@@ -3,7 +3,6 @@ import {list} from "../constants/List";
 import Loader from "../components/Loader";
 import CardImage from "../components/CardImage";
 
-
 function Services() {
       return (
             <div>

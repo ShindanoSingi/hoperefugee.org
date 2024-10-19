@@ -30,7 +30,7 @@ export const list = [
     {
         id: 5,
         imageName: "interpreter.jpg",
-        title: 'Interpretation',
+        title: 'Interpretation Services',
         subtitle: "Ensuring Clear Communication Through Customized Dialect Support",
         content: "We provide interpretation and translation services tailored for refugees. Unlike regular services, we offer simple interpretation that aligns dialects. For instance, a Swahili interpreter from Congo ensures clear communication with clients from that region."
     },

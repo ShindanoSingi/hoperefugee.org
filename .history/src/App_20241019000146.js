@@ -13,7 +13,6 @@ import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import Team from "./pages/Team";
 import History from "./pages/History";
-import Service from "./pages/Service";
 
 
 function App() {

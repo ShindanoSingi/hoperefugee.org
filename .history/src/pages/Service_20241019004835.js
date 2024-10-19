@@ -1,14 +1,15 @@
-import React from "react";
-import {list} from "../constants/List";
-import Loader from "../components/Loader";
-import CardImage from "../components/CardImage";
+import React from 'react'
+import { useParams } from 'react-router-dom'
+import CardImageFull from '../components/CardImageFull';
+import {list} from '../constants/List';
 
 
-function Services() {
-      return (
-            <div>
-                  <section class="relative  bg-blueGray-50">
-                        <div class="relative pt-12 pb-32 flex content-center bg-darkgrey items-center justify-center min-h-screen-75">
+function Service() {
+    const {id} = useParams();
+    const item = list.find(item => item.id === parseInt(id));
+  return (
+    <div className=' '>
+        <div class="relative pt-12 pb-32 flex content-center bg-darkgrey items-center justify-center min-h-screen-75">
                               <div class="top-0 absolute w-full h-full bg-center bg-cover">
                                     <span
                                           id="blackOverlay"
@@ -58,28 +59,9 @@ function Services() {
                                     </svg>
                               </div>
                         </div>
-                        <section class=" bg-gray -mt-[5rem]">
-                              <div class="px-4 pb-4">
-                                    {
-                                        list.length < 0 ? <Loader /> :
-                                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
-                                        {
-                                            list.map((item, index) => {
-                                                return (
-                                                      <div class=" w-full text-center">
-                                                      <CardImage item={item} key={index} />
-                                                      </div>
-                                                );
-                                            })
-                                        }
-                                    </div>
-                                    }
-
-                              </div>
-                        </section>
-                  </section>
-            </div>
-      );
+        <CardImageFull item={item} />
+    </div>
+  )
 }
 
-export default Services;
+export default Service
