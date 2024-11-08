@@ -91,11 +91,13 @@ function Footer() {
                                                 Helpful Links
                                           </p>
                                           <nav class="flex flex-col mt-4 space-y-2  text-lg text-white">
-
-                                                <Link to='/contacts' class="hover:opacity-75">
-                                                Contact
-                                                </Link>
-
+                                                <a
+                                                      class="hover:opacity-75"
+                                                      href
+                                                >
+                                                      {" "}
+                                                      Contact{" "}
+                                                </a>
                                                 {/* <a
                                                       class="hover:opacity-75"
                                                       href

@@ -92,7 +92,7 @@ function Footer() {
                                           </p>
                                           <nav class="flex flex-col mt-4 space-y-2  text-lg text-white">
 
-                                                <Link to='/contacts' class="hover:opacity-75">
+                                                <Link to='/contact' class="hover:opacity-75">
                                                 Contact
                                                 </Link>
 
