@@ -162,7 +162,7 @@ export default function Contacts() {
                                     </div>
                               </div>
 
-                              <div className="mt-10 flex justify-center">
+                              <div className="mt-10 flex justify-center w-auto">
                               <Button
                                           type="primary"
                                           text="DONATE"
