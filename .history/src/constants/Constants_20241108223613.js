@@ -71,14 +71,14 @@ export const contacts = [
     {
         image: 'musa.png',
         content: 'Musa Anzuruni',
-        role: 'Social Worker',
+        role: 'Case Worker',
         email: 'mosesheart9@gmail.com',
         phone: '+1(207) 440-9116',
     },
     {
         image: 'marc.png',
         content: 'Muhigire M. Fata Marc',
-        role: 'Social Worker',
+        role: 'Case Worker',
         email: 'nakitumba@gmail.com',
         phone: '+1(207) 312-0539',
     },

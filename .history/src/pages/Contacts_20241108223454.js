@@ -162,6 +162,73 @@ export default function Contacts() {
                               </div>
                         </div>
                   </div>
+
+                  {/* s */}
+
+                  {/* <form
+                        className="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full"
+                        onSubmit={handleSubmit}
+                  >
+                        <div className="mb-4">
+                              <label
+                                    className="block text-gray-700 text-sm font-bold mb-2"
+                                    htmlFor="name"
+                              >
+                                    {" "}Name{" "}
+                              </label>
+                              <input
+                                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="name"
+                                    type="text"
+                                    name="name"
+                                    value={formData.name}
+                                    onChange={handleChange}
+                                    placeholder="Your Name"
+                              />
+                        </div>
+                        <div className="mb-4">
+                              <label
+                                    className="block text-gray-700 text-sm font-bold mb-2"
+                                    htmlFor="email"
+                              >
+                                    {" "}Email{" "}
+                              </label>
+                              <input
+                                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="email"
+                                    type="email"
+                                    name="email"
+                                    value={formData.email}
+                                    onChange={handleChange}
+                                    placeholder="Your Email"
+                              />
+                        </div>
+                        <div className="mb-4">
+                              <label
+                                    className="block text-gray-700 text-sm font-bold mb-2"
+                                    htmlFor="message"
+                              >
+                                    {" "}Message{" "}
+                              </label>
+                              <textarea
+                                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="message"
+                                    name="message"
+                                    value={formData.message}
+                                    onChange={handleChange}
+                                    placeholder="Your Message"
+                                    rows="5"
+                              />
+                        </div>
+                        <div className="flex items-center justify-between">
+                              <button
+                                    className="bg-[#3EA6FF] hover:bg-[#184690] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                                    type="submit"
+                              >
+                                    {" "}Send
+                              </button>
+                        </div>
+                  </form> */}
             </div>
       );
 }

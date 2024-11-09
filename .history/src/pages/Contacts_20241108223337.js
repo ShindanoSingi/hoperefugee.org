@@ -34,10 +34,10 @@ export default function Contacts() {
       return (
             // <div className="bg-gray-600 grid place-content-center p-4 lg: min-h-dvh overflow-scroll">
 
-            <div className="bg-gray-600 h-screen flex flex-col items-center justify-center px-4">
+            <div className="bg-gray-600 h-screen flex flex-col items-center justify-center p-4">
                   <div>
                         <div className="flex flex-col  text-whitetext gap-4">
-                              <h1 className="text-white text-4xl font-bold  mb-6">
+                              <h1 className="text-white text-4xl font-bold mt-10  mb-6">
                                     Contact Us
                               </h1>
                               {/* <div className="flex  items-center gap-4"> */}
@@ -84,9 +84,9 @@ export default function Contacts() {
                                     />
                               </a> */}
                               <div className="flex items-center gap-4" onClick={e => {
+                                e.preventDefault();
                                                 window.location.href =
                                                       "mailto:shindano@hoperefugee.org?";
-                                                e.preventDefault();
                                           }}>
                                     <a
 
@@ -162,6 +162,73 @@ export default function Contacts() {
                               </div>
                         </div>
                   </div>
+
+                  {/* s */}
+
+                  {/* <form
+                        className="bg-white p-6 rounded-lg shadow-lg max-w-lg w-full"
+                        onSubmit={handleSubmit}
+                  >
+                        <div className="mb-4">
+                              <label
+                                    className="block text-gray-700 text-sm font-bold mb-2"
+                                    htmlFor="name"
+                              >
+                                    {" "}Name{" "}
+                              </label>
+                              <input
+                                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="name"
+                                    type="text"
+                                    name="name"
+                                    value={formData.name}
+                                    onChange={handleChange}
+                                    placeholder="Your Name"
+                              />
+                        </div>
+                        <div className="mb-4">
+                              <label
+                                    className="block text-gray-700 text-sm font-bold mb-2"
+                                    htmlFor="email"
+                              >
+                                    {" "}Email{" "}
+                              </label>
+                              <input
+                                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="email"
+                                    type="email"
+                                    name="email"
+                                    value={formData.email}
+                                    onChange={handleChange}
+                                    placeholder="Your Email"
+                              />
+                        </div>
+                        <div className="mb-4">
+                              <label
+                                    className="block text-gray-700 text-sm font-bold mb-2"
+                                    htmlFor="message"
+                              >
+                                    {" "}Message{" "}
+                              </label>
+                              <textarea
+                                    className="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"
+                                    id="message"
+                                    name="message"
+                                    value={formData.message}
+                                    onChange={handleChange}
+                                    placeholder="Your Message"
+                                    rows="5"
+                              />
+                        </div>
+                        <div className="flex items-center justify-between">
+                              <button
+                                    className="bg-[#3EA6FF] hover:bg-[#184690] text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+                                    type="submit"
+                              >
+                                    {" "}Send
+                              </button>
+                        </div>
+                  </form> */}
             </div>
       );
 }
