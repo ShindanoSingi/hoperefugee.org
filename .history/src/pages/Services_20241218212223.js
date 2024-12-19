@@ -62,7 +62,7 @@ function Services() {
                               <div class="px-4 pb-4">
                                     {list.length < 0
                                           ? <Loader />
-                                          : <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                                          : <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-4">
                                                   {list.map((item, index) => {
                                                         return (
                                                               <div class=" w-full text-center">

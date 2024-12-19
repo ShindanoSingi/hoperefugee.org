@@ -17,7 +17,7 @@ function Footer() {
                   <div class="max-w-screen-xl px-4 py-6 mx-auto sm:px-6 lg:px-8">
                         <div class="grid grid-cols-1 gap-8 lg:grid-cols-3">
                               <div className="flex flex-col gap-4 items-center">
-                                <Link to='/'>
+                                <Link>
                                 <div className="flex items-center gap-4">
                                           <div className="bg-white w-16 h-16 md:w-20 md:h-20 rounded-full flex justify-center items-center">
                                                 <img
@@ -64,27 +64,27 @@ function Footer() {
                                     <div>
                                           <p class="text-xl font-extrabold">Services</p>
                                           <nav class="flex flex-col mt-4 space-y-2  text-lg text-white">
-                                            <Link to='/services' className="hover:opacity-75">
+                                            <Link to={'#'} className="hover:opacity-75">
                                             <p>Help with paperwork</p>
                                             </Link>
-                                            <Link to='/services' className="hover:opacity-75">
+                                            <Link to={'#'} className="hover:opacity-75">
                                             <p>Interpretation</p>
                                             </Link>
-                                            <Link to='/services' className="hover:opacity-75">
+                                            <Link to={'#'} className="hover:opacity-75">
                                             <p>Translation</p>
                                             </Link>
-                                            <Link to='/services' className="hover:opacity-75">
+                                            <Link to={'#'} className="hover:opacity-75">
                                             <p>Job application</p></Link>
-                                            <Link to='/services' className="hover:opacity-75">
-                                            <p>Unemployment Application</p>
+                                            <Link to={'#'} className="hover:opacity-75">
+                                            <p>Unemploy. Application</p>
                                             </Link>
-                                            <Link to='/services' className="hover:opacity-75">
-                                            <p>Unemployment Weekly Reporting</p>
+                                            <Link to={'#'} className="hover:opacity-75">
+                                            <p>Unemploy. Weekly Reporting</p>
                                             </Link>
-                                            <Link to='/services' className="hover:opacity-75">
+                                            <Link to={'#'} className="hover:opacity-75">
                                             <p>DHHS Representation</p>
                                             </Link>
-                                            <Link to='/services' className="hover:opacity-75">
+                                            <Link to={'#'} className="hover:opacity-75">
                                             <p>Transportation to Appointments</p>
                                             </Link>
                                           </nav>

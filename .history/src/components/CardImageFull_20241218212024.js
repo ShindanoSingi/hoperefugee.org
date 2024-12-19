@@ -6,7 +6,7 @@ function CardImageFull({item}) {
     <div class="relative flex flex-col break-words shadow-darkgrey bg-white w-full  shadow-lg rounded-lg">
                   <div className="flex flex-col">
                         <img
-                              className="rounded-tl-lg h-[20rem] md:h-[25rem] lg:h-[40rem]  rounded-tr-lg"
+                              className="rounded-tl-lg h-[20rem] md:h-[25rem] lg:h-[35rem]  rounded-tr-lg"
                               src={`/images/${item.imageName}`}
                               alt=""
                         />

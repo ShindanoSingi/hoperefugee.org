@@ -59,10 +59,10 @@ function Services() {
                               </div>
                         </div>
                         <section class=" bg-my_gray -mt-[5rem]">
-                              <div class="px-4 pb-4">
+                              <div class="px-4 grid justify-center pb-4">
                                     {list.length < 0
                                           ? <Loader />
-                                          : <div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4">
+                                          : <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
                                                   {list.map((item, index) => {
                                                         return (
                                                               <div class=" w-full text-center">
