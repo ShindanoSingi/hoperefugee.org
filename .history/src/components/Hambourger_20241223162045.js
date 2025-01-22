@@ -1,15 +1,16 @@
 import React, { useState } from 'react'
 import Hamburger from "hamburger-react";
 import { SetShowMenu } from '../redux/userSlice';
-import { useDispatch } from 'react-redux';
+import { useDispatch, useSelector } from 'react-redux';
 
 function Hambourger() {
     const [isOpen, setOpen] = useState(false);
+    const showMenu = useSelector((state) => state.userReducer.showMenu);
 
     const dispatch = useDispatch();
 
   return (
-    <div className="h-12 w-12 rounded-full bg-my_green shadow-yellow glow-border border-primary border flex items-center lg:hidden" onClick={()=>{dispatch(SetShowMenu(!showMenu))}}>
+    <div className="h-12 w-12 rounded-full shadow-yellow glow-border z-50 border-primary border flex items-center lg:hidden" onClick={()=>{dispatch(SetShowMenu(!showMenu))}}>
                                     <Hamburger
                                           toggled={isOpen}
                                           toggle={setOpen}

@@ -19,7 +19,7 @@ function CardImage({ item }) {
                                     {item.subtitle}
                               </h2>
                               <div class="h-24">
-                                    <p class="mt-2 mb-4 text-lg line-clamp-5 break-words md:text-xl text-blueGray-500">
+                                    <p class="mt-2 mb-4 text-lg line-clamp-6 break-words md:text-xl text-blueGray-500">
                                           {item.content}
                                     </p>
                                     <Link to={`/card/${item.id}`}>

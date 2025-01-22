@@ -238,7 +238,7 @@ footer.open:hover {
 }
 
 
-/* Add a glow effect for the menu items when the menu is open and the user is hovering over a submenu */
+/* Add a glow effect for the menu items when the menu is open and the user is hovering over a submenu */    
 .menu-item.open:hover.submenu {
     display: block;
 }
